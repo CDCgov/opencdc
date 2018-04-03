@@ -26,7 +26,7 @@
         <div class="usa-grid">
           {% for role in site.data.contribute %}
           <div class="usa-width-one-sixth">
-            <a href="{{ '/contribute' | prepend: site.baseurl | append: '#' | append: role.id }}">
+            <a href="{{ '/contribute.html' | prepend: site.baseurl | append: '#' | append: role.id }}">
               <img src="{{ site.baseurl }}/assets/img/{{ role.icon }}.svg" alt="{{ role.title }}">
               <h4>{{ role.title }}</h4>
             </a>
