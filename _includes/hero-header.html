@@ -4,19 +4,19 @@
       {% if page.layout == 'home' %}
       <div class="usa-grid intro">
         <div class="usa-width-one-third">
-          <a href="{{ '/data' | prepend: site.baseurl }}">
+          <a href="{{ '/data.html' | prepend: site.baseurl }}">
             <img src="{{ site.baseurl }}/assets/img/ico-data.svg" alt="APIs">
             <h3>Data Set</h3>
           </a>
         </div>
         <div class="usa-width-one-third">
-          <a href="{{ '/code' | prepend: site.baseurl }}">
+          <a href="{{ '/code.html' | prepend: site.baseurl }}">
             <img src="{{ site.baseurl }}/assets/img/ico-code.svg" alt="APIs">
             <h3>Code Repos</h3>
           </a>
         </div>
         <div class="usa-width-one-third">
-          <a href="{{ '/apis' | prepend: site.baseurl }}">
+          <a href="{{ '/apis.html' | prepend: site.baseurl }}">
             <img src="{{ site.baseurl }}/assets/img/ico-apis.svg" alt="APIs">
             <h3>APIs</h3>
           </a>
@@ -35,6 +35,9 @@
           {% endif %}
         </div>
       </div>
+      {% endif %}
+      {% if page.layout == 'search' %}
+        {% include search.html %}
       {% endif %}
     </section>
     <svg class="hero-border" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">

@@ -2,15 +2,12 @@
 layout: search
 title: Search
 permalink: /search.html
-banner-heading: Explore CDC Open Technology
+banner-heading: Search
 banner-text:
-hero-text: Enter a search term below.
+hero-text: Explore CDC Open Technology
 category: search
 ---
-<section>
-  {% include search.html %}
-</section>
-<div id="search-results"></div>
+<div id="search-results">Please use the search at the top to begin exploring CDC Open Technology.</div>
 
 <script>
   var baseurl = "{{ site.baseurl }}";

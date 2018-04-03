@@ -13,3 +13,12 @@
     color: #fff;
   }
 }
+
+.usa-search [type=search], .usa-search .usa-search-input {
+  border: 1px solid #fff;
+}
+.usa-search [type=submit], .usa-search .usa-search-submit {
+  background-color: #ccc;
+  color: #555;
+  font-weight: normal;
+}
