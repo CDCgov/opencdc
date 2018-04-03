@@ -1,0 +1,11 @@
+---
+layout: base
+---
+{% if page.banner-heading %}
+  {% include hero-header.html %}
+{% endif %}
+<main class="usa-grid" id="main" tabindex="-1">
+  <section>
+    {{ content }}
+  </section>
+</main>

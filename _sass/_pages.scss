@@ -1,0 +1,20 @@
+.page--banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+  width: 100%;
+}
+.caption {
+  float: right;
+}
+
+.fixed-page-height{
+  height: 250px;
+}
+
+.hero-section {
+  h2, p {
+    color: #fff;
+  }
+}

@@ -1,0 +1,24 @@
+- title: Healthcare
+  icon: ico-health
+  id: healthcare
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ligula sit amet purus egestas convallis. Aenean dignissim eros elit, et laoreet leo consectetur vel. Sed imperdiet enim non venenatis tempus. Maecenas hendrerit nibh eu lectus ornare elementum. Donec at augue sagittis ipsum lacinia sollicitudin.
+- title: Developer
+  icon: ico-dev
+  id: developer
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ligula sit amet purus egestas convallis. Aenean dignissim eros elit, et laoreet leo consectetur vel. Sed imperdiet enim non venenatis tempus. Maecenas hendrerit nibh eu lectus ornare elementum. Donec at augue sagittis ipsum lacinia sollicitudin.
+- title: Government
+  icon: ico-gov
+  id: government
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ligula sit amet purus egestas convallis. Aenean dignissim eros elit, et laoreet leo consectetur vel. Sed imperdiet enim non venenatis tempus. Maecenas hendrerit nibh eu lectus ornare elementum. Donec at augue sagittis ipsum lacinia sollicitudin.
+- title: Educator
+  icon: ico-edu
+  id: educator
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ligula sit amet purus egestas convallis. Aenean dignissim eros elit, et laoreet leo consectetur vel. Sed imperdiet enim non venenatis tempus. Maecenas hendrerit nibh eu lectus ornare elementum. Donec at augue sagittis ipsum lacinia sollicitudin.
+- title: Media
+  icon: ico-media
+  id: media
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ligula sit amet purus egestas convallis. Aenean dignissim eros elit, et laoreet leo consectetur vel. Sed imperdiet enim non venenatis tempus. Maecenas hendrerit nibh eu lectus ornare elementum. Donec at augue sagittis ipsum lacinia sollicitudin.
+- title: Non-Profit
+  icon: ico-ngo
+  id: non-profit
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ligula sit amet purus egestas convallis. Aenean dignissim eros elit, et laoreet leo consectetur vel. Sed imperdiet enim non venenatis tempus. Maecenas hendrerit nibh eu lectus ornare elementum. Donec at augue sagittis ipsum lacinia sollicitudin.

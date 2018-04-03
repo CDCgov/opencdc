@@ -1,0 +1,146 @@
+- title: Surveillance Strategy
+  id: surveillance-strategy
+  tagline: Surveillance Strategy Open Source Projects
+  repos:
+    - title: SDP-Vocabulary-Service
+      url: SDP-Vocabulary-Service
+      description: Repository for the development of the initial SDP vocabulary service.
+      tags:
+        - surveillance
+        - javascript
+      license: Apache License 2.0
+    - title: SDP-CBR
+      url: SDP-CBR
+      description: Repository for the development of the initial SDP vocabulary service.
+      tags:
+        - surveillance
+        - java
+      license: Apache License 2.0
+- title: Foundation Services
+  id: foundation-services
+  image: fdns-logo.svg
+  tagline: Foundation Services Open Source Projects
+  repos:
+    - title: FDNS
+      docker: cdc/fdns
+      url: fdns
+      description: This is a central repository with high level information on Foundation Services, tutorials, example code, etc.
+      tags:
+        - microservice
+      license: Apache License 2.0
+    - title: FDNS-UI-React
+      docker: cdc/fdns-ui-react
+      url: fdns-ui-react
+      description: This is the repository with the a front-end library built in React, will also need to publish to NPM.
+      tags:
+        - microservice
+        - javascript
+        - react
+      license: Apache License 2.0
+    - title: FDNS-JS-SDK
+      docker: cdc/fdns-js-sdk
+      url: fdns-js-sdk
+      description: This is the repository with the JavaScript SDK for Foundation Services, will also need to publish to NPM.
+      tags:
+        - microservice
+        - javascript
+      license: Apache License 2.0
+    - title: FDNS-Java-SDK
+      docker: cdc/fdns-java-sdk
+      url: fdns-java-sdk
+      description: This is the repository with the Java SDK for Foundation Services, will also need to publish to Maven.
+      tags:
+        - microservice
+        - java
+      license: Apache License 2.0
+    - title: FDNS-Rules-Engine
+      docker: cdc/fdns-rules-engine
+      url: fdns-rules-engine
+      description: This the repository with the Java Library for the Business Rules Engine, will also need to publish to Maven.
+      tags:
+        - microservice
+        - java
+      license: Apache License 2.0
+    - title: FDNS-MS-Gateway
+      docker: cdc/fdns-ms-gateway
+      url: fdns-ms-gateway
+      description: This is the repository with the API gateway to connect the other microservices together.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+    - title: FDNS-MS-Storage
+      docker: cdc/fdns-ms-storage
+      url: fdns-ms-storage
+      description: This is the repository with the Storage layer for the Data Lake. This is the immutable layer.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+    - title: FDNS-MS-Object
+      docker: cdc/fdns-ms-object
+      url: fdns-ms-object
+      description: This is the repository with the Object layer for the Data Lake. This is the mutable layer.
+      tags:
+        - microservice
+        - java
+        - springboot
+        - mongodb
+      license: Apache License 2.0
+    - title: FDNS-MS-Indexing
+      docker: cdc/fdns-ms-indexing
+      url: fdns-ms-indexing
+      description: This is the repository with the Indexing layer for the Data Lake. This is the navigation layer.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+    - title: FDNS-MS-HL7-Utils
+      docker: cdc/fdns-ms-hl7-utils
+      url: fdns-ms-hl7-utils
+      description: This is the repository with the HL7 utilities service to parse, validate and generate sample HL7 data.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+    - title: FDNS-MS-CDA-Utils
+      docker: cdc/fdns-ms-cda-utils
+      url: fdns-ms-cda-utils
+      description: This is the repository with the CDA utilities service to parse, validate and generate sample CDA data.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+    - title: FDNS-MS-Combiner
+      docker: cdc/fdns-ms-combiner
+      url: fdns-ms-combiner
+      description: This is the repository with the Combiner service to combine JSON files into a single CSV or XLSX file.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+    - title: FDNS-MS-Rules
+      docker: cdc/fdns-ms-rules
+      url: fdns-ms-rules
+      description: This is the repository with the Business Rules Engine for ingesting and validating JSON files.
+      tags:
+        - microservice
+        - java
+        - springboot
+      license: Apache License 2.0
+- title: Blockchain
+  id: blockchain
+  tagline: Blockchain Open Source Projects
+  repos:
+    - title: BlockchainTB
+      url: blockchainTB
+      description: Proof of project for CDC's r&d with using blockchain to support TB.
+      tags:
+        - blockchain
+      license: Apache License 2.0

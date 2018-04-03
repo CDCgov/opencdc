@@ -1,0 +1,40 @@
+# Site settings
+title: CDC Open Technology
+description: Open source code, data and APIs from CDC.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.com/CDCgov/open.cdc.gov" # the base hostname & protocol for your site
+logo: /assets/img/site-logo.svg
+feature_image: /assets/img/feature-background.jpg
+
+gems:
+  - jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+  - last 3 versions
+
+colors:
+  background: '#ffffff'
+  button:
+    background: '#0071bc'
+    hover: '#3e94cf'
+    text: '#fff'
+  headers: '#205493'
+  text: '#212121'
+  projects:
+    accent: '#02bfe7'
+  banner:
+    background: '#fff'
+    text: '#112e51'
+    button:
+      background: '#dce4ef'
+      text: '#112e51'
+  footer:
+    background: '#5b616b'
+    text: '#fff'
+
+# Build settings
+markdown: kramdown
+include:
+  - _navigation.json
+exclude: [node_modules, gulpifle.js, CONTRIBUTING.md, LICENSE.md, README.md]

@@ -1,0 +1,44 @@
+<section class="section-top hero-section">
+  <div id="main" tabindex="-1" class="hero-img">
+    <section class="hero-content">
+      {% if page.layout == 'home' %}
+      <div class="usa-grid intro">
+        <div class="usa-width-one-third">
+          <a href="{{ '/data' | prepend: site.baseurl }}">
+            <img src="{{ site.baseurl }}/assets/img/ico-data.svg" alt="APIs">
+            <h3>Data Set</h3>
+          </a>
+        </div>
+        <div class="usa-width-one-third">
+          <a href="{{ '/code' | prepend: site.baseurl }}">
+            <img src="{{ site.baseurl }}/assets/img/ico-code.svg" alt="APIs">
+            <h3>Code Repos</h3>
+          </a>
+        </div>
+        <div class="usa-width-one-third">
+          <a href="{{ '/apis' | prepend: site.baseurl }}">
+            <img src="{{ site.baseurl }}/assets/img/ico-apis.svg" alt="APIs">
+            <h3>APIs</h3>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.layout == 'page' %}
+      <div class="usa-grid">
+        <div class="usa-width-one-whole usa-end-row">
+          <h2>{{ page.banner-heading }}</h2> {% if page.banner-text %}
+          <p>{{ page.banner-text }}</p>
+          {% endif %} {% if page.banner-button-text %}
+          <div class="center-content">
+            <a href="{{ page.banner-button-link}}" class="usa-button" title="{{ page.banner-button-title }}">{{ page.banner-button-text }}</a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </section>
+    <svg class="hero-border" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L50 90 L100 0 V100 H0" fill="#fff" />
+    </svg>
+  </div>
+</section>

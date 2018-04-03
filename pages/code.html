@@ -1,0 +1,52 @@
+---
+layout: page
+title: Code Repositories
+permalink: /code.html
+category: code
+banner-heading: Code Repositories
+banner-text: Here you will find CDC Open Source projects. Please explore some of our public code bases below. If you're interested in helping contribute to these projects, please refer to the "Contributing" section of each repository. 
+banner-button-text:
+banner-button-link:
+banner-button-title:
+---
+
+{% for section in site.data.code %}
+<section class="usa-section project" id="{{ section.id }}">
+  <div class="section-header">
+    <h2>
+      <span class="text">{{section.title}}</span>
+      {% if section.image %}
+        <img src="{{ site.baseurl }}/assets/img/{{ section.image }}" alt="{{section.title}}" class="section-image" />
+      {% endif %}
+    </h2>
+    <p class="tagline">{{ section.tagline }}</p>
+    <hr />
+  </div>
+  <div class="repos">
+  {% for repo in section.repos %}
+    <div class="repo">
+      <div class="title">
+        <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank"><h3>{{ repo.title }}</h3></a>
+      </div>
+      <div class="resources">
+        {% if repo.docker %}
+          <a href="https://hub.docker.com/{{ repo.docker }}" target="_blank" class="pull-right"><img src="{{ site.baseurl }}/assets/img/docker.svg" alt="Docker Image Available" /></a>
+        {% endif %}
+        <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank">https://github.com/CDCgov/{{ repo.url }}</a>
+      </div>
+      <p class="description">{{ repo.description }}</p>
+      <div class="usa-grid-full">
+        <div class="usa-width-one-half tags">
+          {% for tag in repo.tags %}
+            <a href="{{ 'https://github.com/search?q=org%3ACDCgov+topic%3A' | append: tag }}" target="_blank">#{{ tag }}</a>
+          {% endfor %}
+        </div>
+        <div class="usa-width-one-half license">
+          {{repo.license}}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}

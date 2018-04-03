@@ -1,0 +1,66 @@
+header:
+  - label: Data
+    url: /data.html
+  - label: Code
+    url: /code.html
+  - label: APIs
+    url: /apis.html
+  - label: Events
+    url: /events.html
+  - label: Contribute
+    url: /contribute.html
+
+footer:
+  - title: Data Sets
+    url: /data.html
+    items:
+      - label: Surveys
+        id: surveys
+      - label: Birth Certificates
+        id: birth-certificates
+      - label: Death Certificates
+        id: death-certificates
+      - label: Case Studies
+        id: case-studies
+  - title: Code Repositories
+    url: /code.html
+    items:
+      - label: Surveillance Strategy
+        id: surveillance-strategy
+      - label: Foundation Services
+        id: foundation-services
+      - label: Blockchain
+        id: blockchain
+  - title: APIs
+    url: /apis.html
+    items:
+      - label: Vocabulary
+        id: vocabulary
+      - label: Monitoring
+        id: monitoring
+      - label: Statistics
+        id: statistics
+  - title: Events
+    url: /events.html
+    items:
+      - label: Hackathons
+        id: hackathons
+      - label: Webinars
+        id: webinars
+      - label: Resources
+        id: resources
+  - title: Contribute
+    url: /contribute.html
+    items:
+      - label: Healthcare
+        id: healthcare
+      - label: Developer
+        id: developer
+      - label: Government
+        id: government
+      - label: Educator
+        id: educator
+      - label: Media
+        id: media
+      - label: Non-Profit
+        id: non-profit
