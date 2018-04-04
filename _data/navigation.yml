@@ -14,14 +14,18 @@ footer:
   - title: Data Sets
     url: /data.html
     items:
-      - label: Surveys
-        id: surveys
-      - label: Birth Certificates
-        id: birth-certificates
-      - label: Death Certificates
-        id: death-certificates
-      - label: Case Studies
-        id: case-studies
+      - label: NCHS
+        id: nchs
+      - label: Injury & Violence
+        id: injury-violence
+      - label: NNDSS
+        id: nndss
+      - label: Vaccination
+        id: vaccination
+      - label: Smoking & Tobacco
+        id: smoking-tobacco-use
+      - label: Web Metrics
+        id: web-metrics
   - title: Code Repositories
     url: /code.html
     items:

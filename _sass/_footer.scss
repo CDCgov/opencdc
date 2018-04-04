@@ -32,6 +32,13 @@ footer small a {
     text-decoration: underline;
   }
 }
+footer {
+  .usa-unstyled-list > li {
+    a {
+      font-size: 0.8em;
+    }
+  }
+}
 .usa-footer-secondary_section a {
   color: #fff;
 }

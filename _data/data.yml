@@ -1,0 +1,24 @@
+- title: National Center for Health Statistics
+  id: nchs
+  url: https://www.cdc.gov/nchs/data_access/ftp_data.htm
+  tagline: The National Center for Health Statistics (NCHS) is pleased to offer downloadable public-use data files through the Centers for Disease Control and Prevention’s (CDC) FTP file server. Users of this service have access to data sets, documentation, and questionnaires from NCHS surveys and data collection systems. Downloading instructions are available in “readme” files.
+- title: Injury & Violence
+  id: injury-violence
+  url: https://www.cdc.gov/injury/wisqars/index.html
+  tagline: CDC’s WISQARS™ (Web-based Injury Statistics Query and Reporting System) is an interactive, online database that provides fatal and nonfatal injury, violent death, and cost of injury data from a variety of trusted sources. Researchers, the media, public health professionals, and the public can use WISQARS™ data to learn more about the public health and economic burden associated with unintentional and violence-related injury in the United States.
+- title: National Notifiable Diseases Surveillance System
+  id: nndss
+  url: https://wwwn.cdc.gov/nndss/data-and-statistics.html
+  tagline: The National Notifiable Diseases Surveillance System (NNDSS) is a nationwide collaboration that enables all levels of public health—local, state, territorial, federal, and international—to share notifiable disease related health information. Public health uses this information to monitor, control, and prevent the occurrence and spread of state-reportable and nationally notifiable infectious and noninfectious diseases and conditions and outbreaks.
+- title: Vaccination
+  id: vaccination
+  url: https://www.cdc.gov/vaccines/vaxview/index.html
+  tagline: The VaxView websites provide vaccination coverage data for all ages. Monitoring coverage for recommended vaccinations across the country helps CDC assess how well local areas, states, and the nation are protected from vaccine-preventable diseases.
+- title: Smoking & Tobacco Use
+  id: smoking-tobacco-use
+  url: https://www.cdc.gov/tobacco/data_statistics/index.htm
+  tagline: Tobacco use is the leading cause of preventable disease, disability, and death in the United States. Nearly 40 million US adults still smoke cigarettes, and about 4.7 million middle and high school students use at least one tobacco product, including e-cigarettes. Every day, more than 3,800 youth younger than 18 years smoke their first cigarette. Each year, nearly half a million Americans die prematurely of smoking or exposure to secondhand smoke. Another 16 million live with a serious illness caused by smoking. Each year, the United States spends nearly $170 billion on medical care to treat smoking-related disease in adults.
+- title: Web Metrics
+  id: web-metrics
+  url: https://www.cdc.gov/metrics/
+  tagline: CDC Digital Media Metrics are made available with CDC.gov, Mobile and CDC.gov Satisfaction Scores. 

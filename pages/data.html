@@ -1,0 +1,29 @@
+---
+layout: page
+title: Data Sets
+permalink: /data.html
+category: data
+banner-heading: Data Sets
+banner-text: Here you can explore published data sets from the CDC such as birth and death certificates, statistics and other information.
+banner-button-text:
+banner-button-link:
+banner-button-title:
+---
+
+<h3>For more information on available data sets, please visit <a href="https://data.cdc.gov" target="_blank">https://data.cdc.gov</a>.</h3>
+
+{% for section in site.data.data %}
+<section class="usa-section project" id="{{ section.id }}">
+   <div class="section-header">
+    <h2>
+      <span class="text">{{section.title}}</span>
+      {% if section.image %}
+        <img src="{{ site.baseurl }}/assets/img/{{ section.image }}" alt="{{section.title}}" class="section-image" />
+      {% endif %}
+    </h2>
+    <a href="{{ section.url }}" target="_blank">{{ section.url }}</a>
+    <p class="tagline">{{ section.tagline }}</p>
+    <hr />
+  </div>
+</section>
+{% endfor %}
