@@ -1,4 +1,18 @@
-- title: Data.CDC.gov
-  id: data-cdc-gov
+- title: Open Data
+  id: open-data
   url: https://data.cdc.gov
-  tagline: This API uses the Socrata Open Data API. 
+  tagline: A repository of all available data sets with a Socrata Open Data API.
+  docs: https://dev.socrata.com/docs/endpoints.html
+  arch: REST
+  formats: 
+    - json
+    - xml
+    - csv
+- title: PHIN VADS
+  id: phin-vads
+  url: http://phinvads.cdc.gov/vocabService/v2
+  tagline: PHIN VADS provides standard vocabularies to CDC and its public health partners in one place. PHIN VADS is a web-based enterprise vocabulary system for accessing, searching, and distributing vocabularies used in public health and clinical care practice.
+  docs: http://phinvads.cdc.gov/vads/developersGuide.action
+  arch: REST
+  formats:
+    - xml

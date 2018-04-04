@@ -1,20 +1,12 @@
-- title: Surveillance Strategy
-  id: surveillance-strategy
-  tagline: Surveillance Strategy Open Source Projects
+- title: Blockchain
+  id: blockchain
+  tagline: Blockchain Open Source Projects
   repos:
-    - title: SDP-Vocabulary-Service
-      url: SDP-Vocabulary-Service
-      description: Repository for the development of the initial SDP vocabulary service.
+    - title: BlockchainTB
+      url: blockchainTB
+      description: Proof of project for CDC's r&d with using blockchain to support TB.
       tags:
-        - surveillance
-        - javascript
-      license: Apache License 2.0
-    - title: SDP-CBR
-      url: SDP-CBR
-      description: Repository for the development of the initial SDP vocabulary service.
-      tags:
-        - surveillance
-        - java
+        - blockchain
       license: Apache License 2.0
 - title: Foundation Services
   id: foundation-services
@@ -134,13 +126,21 @@
         - java
         - springboot
       license: Apache License 2.0
-- title: Blockchain
-  id: blockchain
-  tagline: Blockchain Open Source Projects
+- title: Surveillance Strategy
+  id: surveillance-strategy
+  tagline: Surveillance Strategy Open Source Projects
   repos:
-    - title: BlockchainTB
-      url: blockchainTB
-      description: Proof of project for CDC's r&d with using blockchain to support TB.
+    - title: SDP-Vocabulary-Service
+      url: SDP-Vocabulary-Service
+      description: Repository for the development of the initial SDP vocabulary service.
       tags:
-        - blockchain
+        - surveillance
+        - javascript
+      license: Apache License 2.0
+    - title: SDP-CBR
+      url: SDP-CBR
+      description: Repository for the development of the initial SDP vocabulary service.
+      tags:
+        - surveillance
+        - java
       license: Apache License 2.0

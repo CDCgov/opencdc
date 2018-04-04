@@ -31,21 +31,19 @@ footer:
   - title: Code Repositories
     url: /code.html
     items:
-      - label: Surveillance Strategy
-        id: surveillance-strategy
-      - label: Foundation Services
-        id: foundation-services
       - label: Blockchain
         id: blockchain
+      - label: Foundation Services
+        id: foundation-services
+      - label: Surveillance Strategy
+        id: surveillance-strategy
   - title: APIs
     url: /apis.html
     items:
-      - label: Vocabulary
-        id: vocabulary
-      - label: Monitoring
-        id: monitoring
-      - label: Statistics
-        id: statistics
+      - label: Open Data
+        id: open-data
+      - label: PHIN VADS
+        id: phin-vads
   - title: Events
     url: /events.html
     items:

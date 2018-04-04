@@ -18,9 +18,31 @@ banner-button-title:
         <img src="{{ site.baseurl }}/assets/img/{{ section.image }}" alt="{{section.title}}" class="section-image" />
       {% endif %}
     </h2>
-    <a href="{{ section.url }}" target="_blank">{{ section.url }}</a>
     <p class="tagline">{{ section.tagline }}</p>
-    <hr />
+    <table class="usa-table-borderless">
+      <tbody>
+        <tr>
+          <td width="20%"><strong>Endpoint:</strong></td>
+          <td><a href="{{ section.url }}" target="_blank">{{ section.url }}</a></td>
+        </tr>
+        <tr>
+          <td width="20%"><strong>Documentation:</strong></td>
+          <td><a href="{{ section.docs }}" target="_blank">{{ section.docs }}</a></td>
+        </tr>
+        <tr>
+          <td width="20%"><strong>Architecture:</strong></td>
+          <td>{{ section.arch }}</td>
+        </tr>
+        <tr>
+          <td width="20%"><strong>Available Formats:</strong></td>
+          <td>
+            {% for format in section.formats %}
+              <img src="{{ site.baseurl }}/assets/img/ico-{{ format }}.svg" alt="{{format}}" />
+            {% endfor %}
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </section>
 {% endfor %}
