@@ -44,6 +44,10 @@ footer:
         id: open-data
       - label: PHIN VADS
         id: phin-vads
+      - label: WONDER
+        id: wonder
+      - label: Content Syndication
+        id: content-syndication
   - title: Events
     url: /events.html
     items:

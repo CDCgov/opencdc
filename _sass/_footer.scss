@@ -24,14 +24,6 @@ footer h6 {
   font-weight: normal;
   font-family: $sourcesanspro;
 }
-footer small a {
-  color: $cdc-blue;
-
-  &:hover {
-    color: $cdc-blue;    
-    text-decoration: underline;
-  }
-}
 footer {
   .usa-unstyled-list > li {
     a {
@@ -41,6 +33,14 @@ footer {
 }
 .usa-footer-secondary_section a {
   color: #fff;
+}
+footer .usa-footer-logo small a {
+  color: $cdc-blue;
+
+  &:hover {
+    color: $cdc-blue;    
+    text-decoration: underline;
+  }
 }
 
 .usa-footer {

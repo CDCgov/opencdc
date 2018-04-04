@@ -16,3 +16,20 @@
   arch: REST
   formats:
     - xml
+- title: WONDER
+  id: wonder
+  url: http://wonder.cdc.gov?request_xml=
+  tagline: Access data in the WONDER online databases immediately with automated data queries in XML format over HTTP, for use in your own web pages or widgets.
+  docs: https://wonder.cdc.gov/wonder/help/WONDER-API.html
+  arch: REST
+  formats:
+    - xml
+- title: Content Syndication
+  id: content-syndication
+  url: https://tools.cdc.gov/api/v2
+  tagline: Content syndication allows CDC to offer web content to other sites and applications. Use our content on your site! It is as easy as identifying the content you want, and then pasting a small section of code from our site to yours.
+  docs: https://tools.cdc.gov/api/docs/info.aspx#response
+  arch: REST
+  formats:
+    - json
+    - xml
