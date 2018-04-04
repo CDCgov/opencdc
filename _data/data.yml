@@ -1,3 +1,7 @@
+- title: Data.CDC.gov
+  id: data-cdc-gov
+  url: https://data.cdc.gov
+  tagline: "A repository of all available data sets with a Socrata Open Data API. Available categories include: Administrative, Biomonitoring, Child Vaccinations, Flu Vaccinations, Health Statistics, Injury & Violence, Motor Vehicle, NCHS, NNDSS, Pregnancy & Vaccination, STDs, Smoking & Tobacco Use, Teen Vaccinations, Traumatic Brain Injury, Vaccinations and Web Metrics."
 - title: National Center for Health Statistics
   id: nchs
   url: https://www.cdc.gov/nchs/data_access/ftp_data.htm

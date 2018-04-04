@@ -14,6 +14,8 @@ footer:
   - title: Data Sets
     url: /data.html
     items:
+      - label: Data.CDC.gov
+        id: data-cdc-gov
       - label: NCHS
         id: nchs
       - label: Injury & Violence

@@ -1,0 +1,4 @@
+- title: Data.CDC.gov
+  id: data-cdc-gov
+  url: https://data.cdc.gov
+  tagline: This API uses the Socrata Open Data API. 
