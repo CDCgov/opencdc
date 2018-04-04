@@ -1,0 +1,11 @@
+#collaborate {
+  .roles {
+    a {
+      color: $cdc-blue;
+
+      &:hover {
+        color: #aaa;
+      }
+    }
+  }
+}

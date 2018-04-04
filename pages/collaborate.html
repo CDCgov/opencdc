@@ -7,16 +7,18 @@ banner-heading: Collaborate
 banner-text: There are many different ways you can use Open CDC technology to collaborate and begin using CDC data, APIs and code. Find your role below and see how you can get started.
 ---
 
+<div id="collaborate">
 {% for role in site.data.collaborate %}
-<section class="usa-section roles" id="{{ role.id }}">
-  <div class="usa-grid">
-    <div class="usa-width-one-sixth icon">
-      <img src="{{ site.baseurl }}/assets/img/{{ role.icon }}.svg" alt="Healthcare">
+  <section class="usa-section roles" id="{{ role.id }}">
+    <div class="usa-grid">
+      <div class="usa-width-one-sixth icon">
+        <img src="{{ site.baseurl }}/assets/img/{{ role.icon }}.svg" alt="Healthcare">
+      </div>
+      <div class="usa-width-five-sixths text">
+        <h3>{{ role.title }}</h3>
+        <p>{{ role.description }}</p>
+      </div>
     </div>
-    <div class="usa-width-five-sixths text">
-      <h3>{{ role.title }}</h3>
-      <p>{{ role.description }}</p>
-    </div>
-  </div>
-</section>
+  </section>
 {% endfor %}
+</div>

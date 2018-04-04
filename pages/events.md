@@ -11,10 +11,10 @@ banner-button-title:
 ---
 
 ### Hackathons
-Currently there are no hackathons planned, please return for more information at a later time.
+In order to facilitate the education and promotion of CDC Open Technology, we will regularly hold hackathons and encourage participation from the public. Please check back here to find more information on upcoming hackathons.
 
 ### Webinars
-Currently there are no webinars planned, please return for more information at a later time.
+Interactive webinars are a great resource for sharing information and demonstrating CDC Open Technology. Please check back here to find more information on upcoming webinars.
 
 ### Resources
-We have gathered resources such as tutorials, videos, and other information to help you interact with CDC Open Technology.
+We have gathered resources such as tutorials, videos, and other information to help you interact with CDC Open Technology. Please browse through the resources below.

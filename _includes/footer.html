@@ -1,26 +1,26 @@
-  <footer class="usa-footer">
-    <div class="usa-grid">
-      <nav>
-        {% for section in site.data.navigation.footer %}
-          <div class="usa-width-one-sixth">
-            <h4>{{ section.title }}</h4>
-            <ul class="usa-unstyled-list">
-              {% for item in section.items %}
-                <li><a href="{{ section.url | prepend: site.baseurl | append: '#' | append: item.id }}">{{ item.label }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endfor %}
-        <div class="usa-footer-logo usa-width-one-sixth">
-          <p>
-            <img src="{{ site.baseurl }}/assets/img/US_CDC_logo.svg" alt="U.S. Centers for Disease Control and Prevention"><br/>
-            <small>
-              1600 Clifton Road Atlanta, GA 30329-4027 USA<br/>
-              800-CDC-INFO (800-232-4636), TTY: 888-232-6348<br/>
-              <a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx" target="_blank">Email CDC-INFO</a>
-            </small>
-          </p>
+<footer class="usa-footer">
+  <div class="usa-grid">
+    <nav>
+      {% for section in site.data.navigation.footer %}
+        <div class="usa-width-one-sixth">
+          <h4>{{ section.title }}</h4>
+          <ul class="usa-unstyled-list">
+            {% for item in section.items %}
+              <li><a href="{{ section.url | prepend: site.baseurl | append: '#' | append: item.id }}">{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
         </div>
-      </nav>
-    </div>
-  </footer>
+      {% endfor %}
+      <div class="usa-footer-logo usa-width-one-sixth">
+        <p>
+          <img src="{{ site.baseurl }}/assets/img/US_CDC_logo.svg" alt="U.S. Centers for Disease Control and Prevention"><br/>
+          <small>
+            1600 Clifton Road Atlanta, GA 30329-4027 USA<br/>
+            800-CDC-INFO (800-232-4636), TTY: 888-232-6348<br/>
+            <a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx" target="_blank">Email CDC-INFO</a>
+          </small>
+        </p>
+      </div>
+    </nav>
+  </div>
+</footer>
