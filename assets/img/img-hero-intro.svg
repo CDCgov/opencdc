@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="171px" viewBox="0 0 272 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>img-hero-intro</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="202" cy="29" r="7"></circle>
+        <circle id="path-2" cx="79" cy="160" r="7"></circle>
+        <circle id="path-3" cx="7" cy="107" r="7"></circle>
+        <circle id="path-4" cx="261" cy="45" r="7"></circle>
+        <circle id="path-5" cx="64" cy="7" r="7"></circle>
+        <circle id="path-6" cx="216" cy="153" r="7"></circle>
+        <path d="M7.07077081,36.9834311 L84.8531153,1.33905299 C86.6331128,0.523354997 88.7254313,0.821694608 90.2065092,2.10238295 L159.116642,61.6889911 C161.205452,63.495185 161.434557,66.6527091 159.628363,68.7415184 C159.159853,69.2833355 158.580399,69.7181651 157.929229,70.0165689 L80.1468847,105.660947 C78.3668872,106.476645 76.2745687,106.178305 74.7934908,104.897617 L5.88335777,45.3110089 C3.79454841,43.504815 3.56544334,40.3472909 5.37163728,38.2584816 C5.84014667,37.7166645 6.41960105,37.2818349 7.07077081,36.9834311 Z" id="path-7"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="img-hero-intro" transform="translate(-13.000000, -7.000000)">
+            <g transform="translate(15.000000, 9.000000)">
+                <path d="M65.3613281,8.52734375 L111.271484,50.7207031" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <path d="M200.412109,31.2109375 L179.726562,73.1523438" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <path d="M92.9921875,107.115234 L79.6386719,160.460938" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <path d="M92.9921875,107.115234 L7.27929688,107.115234 L261.441406,45.28125 L215.3125,153.658203" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <path d="M87.0371094,75.8632812 L201.439453,29.0292969" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <path d="M112.525391,127.642578 L79.6386719,160.460938" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <path d="M215.919922,152.730469 L191.392578,136.527344" id="Path-3" stroke="#1B76C8" stroke-width="2" stroke-dasharray="5,3"></path>
+                <g id="Oval-4">
+                    <use fill="#0E64B3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#1B76C8" stroke-width="2" cx="202" cy="29" r="8"></circle>
+                </g>
+                <g id="Oval-4">
+                    <use fill="#0E64B3" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <circle stroke="#1B76C8" stroke-width="2" cx="79" cy="160" r="8"></circle>
+                </g>
+                <g id="Oval-4">
+                    <use fill="#0E64B3" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <circle stroke="#1B76C8" stroke-width="2" cx="7" cy="107" r="8"></circle>
+                </g>
+                <g id="Oval-4">
+                    <use fill="#0E64B3" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <circle stroke="#1B76C8" stroke-width="2" cx="261" cy="45" r="8"></circle>
+                </g>
+                <g id="Oval-4">
+                    <use fill="#0E64B3" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <circle stroke="#1B76C8" stroke-width="2" cx="64" cy="7" r="8"></circle>
+                </g>
+                <g id="Oval-4">
+                    <use fill="#0E64B3" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <circle stroke="#1B76C8" stroke-width="2" cx="216" cy="153" r="8"></circle>
+                </g>
+                <path d="M71.0707708,96.9834311 L148.853115,61.339053 C150.633113,60.523355 152.725431,60.8216946 154.206509,62.102383 L223.116642,121.688991 C225.205452,123.495185 225.434557,126.652709 223.628363,128.741518 C223.159853,129.283336 222.580399,129.718165 221.929229,130.016569 L144.146885,165.660947 C142.366887,166.476645 140.274569,166.178305 138.793491,164.897617 L69.8833578,105.311009 C67.7945484,103.504815 67.5654433,100.347291 69.3716373,98.2584816 C69.8401467,97.7166645 70.419601,97.2818349 71.0707708,96.9834311 Z" id="Rectangle-7" stroke="#1B76C8" stroke-width="4" fill="#B5D1EB"></path>
+                <path d="M69.6566166,74.6314785 L149.437525,38.0712424 C150.861523,37.418684 152.535378,37.6573557 153.720241,38.6819064 L224.293314,99.7064592 C225.964361,101.151414 226.147645,103.677434 224.70269,105.348481 C224.327883,105.781935 223.864319,106.129798 223.343383,106.368521 L143.562475,142.928758 C142.138477,143.581316 140.464622,143.342644 139.279759,142.318094 L68.7066862,81.2935408 C67.0356387,79.8485856 66.8523547,77.3225664 68.2973098,75.6515189 C68.6721173,75.2180652 69.1356808,74.8702015 69.6566166,74.6314785 Z" id="Rectangle-7" stroke="#1B76C8" stroke-width="4" fill="#E2F1FF"></path>
+                <g id="Group" transform="translate(64.000000, 14.000000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <use id="Mask" stroke="#1B76C8" stroke-width="4" fill="#FFFFFF" opacity="0.963088768" xlink:href="#path-7"></use>
+                    <g opacity="0.139209692" mask="url(#mask-8)" fill="#054D8E" fill-rule="nonzero" stroke="#004D93">
+                        <g transform="translate(106.856435, 41.688310) rotate(-24.000000) translate(-106.856435, -41.688310) translate(23.856435, -8.811690)">
+                            <polygon id="ray09" points="64.3758751 99.2744856 165.876356 1.01469748 165.876356 5.68434189e-14 165.393459 5.68434189e-14 62.8319529 99.2744856"></polygon>
+                            <polygon id="ray01" points="1.01055736 99.2744856 7.53983435 7.10542736e-15 6.52919183 7.10542736e-15 0 99.2744856"></polygon>
+                            <polygon id="ray02" points="6.12401754 99.2744856 21.362864 1.0658141e-14 20.2685076 1.0658141e-14 5.02655624 99.2744856"></polygon>
+                            <polygon id="ray03" points="12.4445103 99.2744856 35.1858936 3.55271368e-14 34.0482102 3.55271368e-14 11.3097515 99.2744856"></polygon>
+                            <polygon id="ray04" points="18.6489837 99.2744856 51.5222014 7.10542736e-15 50.4661644 7.10542736e-15 17.5929468 99.2744856"></polygon>
+                            <polygon id="ray05" points="25.0418249 99.2744856 67.8585092 2.84217094e-14 66.6928264 2.84217094e-14 23.8761421 99.2744856"></polygon>
+                            <polygon id="ray06" points="33.2313771 100.087959 86.0219079 0.813473286 84.7769886 0.813473286 31.9864283 100.087959"></polygon>
+                            <polygon id="ray07" points="111.840876 2.84217094e-14 110.487428 2.84217094e-14 41.4690889 99.2744856 42.8225076 99.2744856"></polygon>
+                            <polygon id="ray08" points="135.717018 0 134.377906 0 51.5222014 99.2744856 52.9557026 99.2744856"></polygon>
+                            <polygon id="ray10" points="165.876356 37.7334498 165.876356 36.4425327 82.9381779 99.2744856 84.5801338 99.2744856"></polygon>
+                            <polygon id="ray11" points="165.876356 65.2760948 165.876356 64.088592 106.81432 99.2744856 108.823304 99.2744856"></polygon>
+                            <polygon id="ray12" points="165.876356 90.3709118 165.876356 89.2213732 144.513492 99.2744856 146.959134 99.2744856"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
