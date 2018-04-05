@@ -1,4 +1,8 @@
-<section class="usa-section cdc-blue">
+<section class="usa-section banner-header">
+  {% if page.layout == 'search' %}
+    {% include search.html %}
+  {% endif %}
+  {% if page.layout != 'search' %}
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-end-row">
       <h2>{{ page.banner-heading }}</h2> {% if page.banner-text %}
@@ -10,4 +14,5 @@
       {% endif %}
     </div>
   </div>
+  {% endif %}
 </section>
