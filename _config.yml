@@ -17,7 +17,7 @@ colors:
   background: '#ffffff'
   button:
     background: '#0071bc'
-    hover: '#3e94cf'
+    hover: '#115daa'
     text: '#fff'
   headers: '#205493'
   text: '#212121'

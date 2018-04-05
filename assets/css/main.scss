@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 $background-color:         {{ site.colors.background }};
 $headers-color:            {{ site.colors.headers }};
 $text-color:               {{ site.colors.text }};
-$header-text-color:       {{ site.colors.headers }};
+$header-text-color:        {{ site.colors.headers }};
 $button-color:             {{ site.colors.button.background }};
 $button-hover-color:       {{ site.colors.button.hover }};
 $button-text-color:        {{ site.colors.button.text }};
@@ -29,6 +29,43 @@ $banner-button-text-color:       {{ site.colors.banner.button.text }};
 
 $footer-background-color:  {{ site.colors.footer.background }};
 $footer-text-color:        {{ site.colors.footer.text }};
+
+// colors 
+$cdc-blue: #075290;
+$cdc-logo-blue: #115daa;
+$cdc-blue-alpha-75: rgba(7, 82, 144, 0.75);
+
+$dark-blue: #004884;
+
+
+// radius
+$radius: 5px;
+
+// Mixin
+@mixin linearGradient($top, $bottom){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(top,  $top 0%, $bottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  $top 0%,$bottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  $top 0%,$bottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004884', endColorstr='#115daa',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+}
+
+@mixin transition($transition) {
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
 
 // Width of the content area
 $content-width:    800px;

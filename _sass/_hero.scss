@@ -2,10 +2,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-color: #0360B2;
-  min-height: 250px;
+  min-height: 400px;
   position: relative;
+  @include linearGradient(#004884, #115daa);
 }
+
+.hero-border {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
 .hero-search {
   // background-color: rgba(46, 133, 64, 0.7);
   bottom: 30%;

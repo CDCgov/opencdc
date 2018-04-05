@@ -21,7 +21,6 @@ $button-color: $cdc-blue;
 #logo a {
   border: none;
   display: block;
-  height: 75px;
 }
 #logo h1 {
   font-size: 3rem;
@@ -31,7 +30,7 @@ $button-color: $cdc-blue;
 .usa-nav-list a:hover {
   border-bottom: 0;
   text-decoration: none;
-  color: $cdc-blue;
+  color: white;
 }
 .usa-nav-list {
   float: right;
@@ -45,12 +44,14 @@ li.usa-menu-item {
   display: inline;
 }
 .usa-menu-item a {
-  padding: 1em;
+  padding: 0.6em;
 }
 .usa-menu-item:hover a,
 .usa-menu-item.active a {
-  background-color: $button-color;
-  color: $button-text-color;
+  color: #FFDD75;
+  text-decoration: underline;
+  @include border-radius($radius);
+  @include transition($transition);
 }
 @media (max-width: 600px) {
   .usa-site-navbar .usa-grid {
