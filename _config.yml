@@ -2,7 +2,7 @@
 title: CDC Open Technology
 description: Open source code, data and APIs from CDC.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://github.com/CDCgov/open.cdc.gov" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 logo: /assets/img/site-logo.svg
 feature_image: /assets/img/feature-background.jpg
 
