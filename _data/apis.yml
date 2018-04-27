@@ -33,3 +33,11 @@
   formats:
     - json
     - xml
+- title: Tracking Network Data Application Program Interface
+  id: tracking-api
+  url: https://ephtracking.cdc.gov/apigateway/api/v1
+  tagline: The Data Application Program Interface (API) is an additional way to query data stored by the Environmental Public Health Tracking Network. The API provides a standard URL interface with a JSON formatted response.
+  docs: https://ephtracking.cdc.gov/apihelp
+  arch: REST
+  formats:
+    - json
