@@ -1,15 +1,15 @@
-<section class="usa-section banner-header">
+<section class="opencdc-section banner-header">
   {% if page.layout == 'search' %}
     {% include search.html %}
   {% endif %}
   {% if page.layout != 'search' %}
-  <div class="usa-grid">
-    <div class="usa-width-one-whole usa-end-row">
+  <div class="opencdc-grid">
+    <div class="opencdc-whole-row">
       <h2>{{ page.banner-heading }}</h2> {% if page.banner-text %}
       <p>{{ page.banner-text }}</p>
       {% endif %} {% if page.banner-button-text %}
       <div class="center-content">
-        <a href="{{ page.banner-button-link}}" class="usa-button" title="{{ page.banner-button-title }}">{{ page.banner-button-text }}</a>
+        <a href="{{ page.banner-button-link}}" class="opencdc-button" title="{{ page.banner-button-title }}">{{ page.banner-button-text }}</a>
       </div>
       {% endif %}
     </div>

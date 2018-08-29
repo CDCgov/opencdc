@@ -1,6 +1,6 @@
 $sourcesanspro: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 
-.usa-footer-secondary_section {
+.opencdc-footer-secondary_section {
   background-color: $footer-background-color;
 }
 footer p,
@@ -25,16 +25,16 @@ footer h6 {
   font-family: $sourcesanspro;
 }
 footer {
-  .usa-unstyled-list > li {
+  .opencdc-unstyled-list > li {
     a {
       font-size: 0.8em;
     }
   }
 }
-.usa-footer-secondary_section a {
+.opencdc-footer-secondary_section a {
   color: #fff;
 }
-footer .usa-footer-logo small a {
+footer .opencdc-footer-logo small a {
   color: $cdc-blue;
 
   &:hover {
@@ -43,7 +43,7 @@ footer .usa-footer-logo small a {
   }
 }
 
-.usa-footer {
+.opencdc-footer {
     padding: 1em;
     background-color: #F8F8F8;
   @media screen and (min-width: 1200px){
@@ -56,12 +56,12 @@ footer .usa-footer-logo small a {
   }
 }
 
-.usa-footer-logo p {
+.opencdc-footer-logo p {
   text-align: right;
   font-size: 14px;
 }
 
-.usa-footer-logo .logo {
+.opencdc-footer-logo .logo {
   width: auto;
   height: 90px;
 }

@@ -1,4 +1,4 @@
-.usa-banner button.usa-accordion-button.usa-banner-button {
+.opencdc-banner button.opencdc-accordion-button.opencdc-banner-button {
   width: 130px;
   display: inline-block;
 }
@@ -19,7 +19,7 @@
 .banner.roles {
   background-color: #e4e2e0;
 }
-.banner.roles .usa-grid {
+.banner.roles .opencdc-grid {
   padding: 3rem;
 }
 .banner.roles p {
@@ -45,5 +45,30 @@
 .banner.contact a,
 .banner.contact a:hover,
 .banner.contact a:visited {
-  color: #fff;
+  color: #ffffff;
+}
+
+.banner-header {
+  background-color: $dark-blue;
+
+  h2, label {
+    color: #ffffff;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #FFDD75;
+  }
+}
+
+.opencdc-section.banner-header {
+  background-color: $dark-blue;
+  padding: 0 3rem 2rem 3rem;
+
+  h1,h2,h3,h4,h5,p {
+    color: #fff;
+  }
 }

@@ -1,14 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-us" class="theme-blue">
 
 {% include head.html %}
 
-<body>
-  <div id="wrapper">
-    <div id="header">{% include header.html %}</div>
-    <div id="content">{{ content }}</div>
-    <div id="footer">{% include footer.html %}</div>
+<body class="no-js">
+  {% include header.html %}
+
+  <!-- Page Content Wrap -->
+  <div class="container d-flex flex-wrap body-wrapper bg-white">
+    <!-- Content -->
+    <main class="col-12 order-lg-2" role="main" aria-label="Main Content Area">
+      {% include nav.html %}
+
+      {% if page.banner-heading %}
+        {% include banner-header.html %}
+      {% endif %}
+      
+      <div class="opencdc-content">
+        {{ content }}
+      </div>
+    </main>
   </div>
+
+  {% include footer.html %}
+
   {% include javascript.html %}
 </body>
 </html>

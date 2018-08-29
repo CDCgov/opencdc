@@ -1,4 +1,4 @@
-<ul class="usa-sidenav-list">
+<ul class="opencdc-sidenav-list">
   {% for link in include.links %}
     {% assign _href = link.href %}
     {% assign _current = false %}
@@ -7,11 +7,11 @@
     {% endif %}
   <li>
     <a href="{{ _href | relative_url }}"{% if _current %}
-      class="usa-current"{% endif %}>
+      class="opencdc-current"{% endif %}>
       {{ link.text }}
     </a>
     {% if _current and page.subnav %}
-    <ul class="usa-sidenav-sub_list">
+    <ul class="opencdc-sidenav-sub_list">
       {% include subnav.html links=page.subnav %}
     </ul>
     {% endif %}

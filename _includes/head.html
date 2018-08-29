@@ -1,11 +1,27 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <!-- Begin included content (from /TemplatePackage/4.0/includes/head-content.html) -->
+  <!-- Global / universal meta tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="shortcut icon" href="https://www.cdc.gov/TemplatePackage/4.0/assets/imgs/favicon.ico">
+  <link rel="stylesheet prefetch" href="https://www.cdc.gov/TemplatePackage/4.0/assets/vendor/css/bootstrap.css?2018-08-17T00:15:03Z" />
+  <link rel="stylesheet prefetch" href="https://www.cdc.gov/TemplatePackage/4.0/assets/css/app.min.css?2018-08-17T00:15:03Z" />
+  <link rel="stylesheet" media="print" href="https://www.cdc.gov/TemplatePackage/4.0/assets/css/print.css?2018-08-17T00:15:03Z" />
+  <!-- End included content (from /TemplatePackage/4.0/includes/head-content.html) -->
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+  <link rel="shortcut icon" href="https://www.cdc.gov/TemplatePackage/4.0/images/favicon.ico">
+  <meta name="robots" content="index, archive" />
+  <meta property="cdc:template_version" content="4.0" />
+  <meta property="cdc:last_updated" content="January 9, 2018" />
+  <meta property="cdc:last_reviewed" content="January 9, 2018" />
+  <meta property="cdc:content_source" content="" />
+  <meta property="cdc:maintained_by" content="" />
+  <meta property="cdc:content_id" content="1121" />
+  <link rel="canonical" href="https://www.cdc.gov/phap/index.html" />
+  <meta property="cdc:wcms_build" content="4.7.2 - b.36" />
   <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
@@ -13,22 +29,13 @@
   <meta name="twitter:card" content="summary_large_image">
   {% if site.feature_image %}<meta property="og:image" content="{{ site.feature_image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
   {% if site.feature_image %}<meta name="twitter:image" content="{{ site.feature_image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="google-site-verification" content="1mdRfaEaI19uCixYkGGmRsv2iA_si1n44fNtk4jzixQ" />
-
-  <link rel="stylesheet" href="{{ '/assets/uswds/css/uswds.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl }}" />
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-
-  <script>
-    if (/^www\./.test(window.location.hostname)) {
-      window.location = window.location.href.replace('www.', '');
-    }
-  </script>
+  <meta name="DC.date" content="2018-08-23T06:43:42Z/">
+  <!-- original css included -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>

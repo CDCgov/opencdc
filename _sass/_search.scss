@@ -4,9 +4,10 @@
 
 .result-item {
   padding: 10px 0;
+  list-style: none;
 }
 
-.usa-section-blue {
+.opencdc-section-blue {
   background-color: #0360B2;
 
   h1,h2,h3,h4,h5 {
@@ -14,11 +15,17 @@
   }
 }
 
-.usa-search [type=search], .usa-search .usa-search-input {
+.opencdc-search [type=search], .opencdc-search .opencdc-search-input {
   border: 1px solid #fff;
+  width: 500px;
 }
-.usa-search [type=submit], .usa-search .usa-search-submit {
+.opencdc-search [type=submit], .opencdc-search .opencdc-search-submit {
   background-color: #ccc;
   color: #555;
   font-weight: normal;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+  }
 }

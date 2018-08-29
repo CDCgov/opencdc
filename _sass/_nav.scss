@@ -1,0 +1,30 @@
+.opencdc-navbar {
+  background-color: #004884;
+
+  ul.opencdc-nav-list {
+    text-align: left;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 1rem;
+
+    li.opencdc-menu-item {
+      font-size: 18px;
+      display: inline;
+      margin-left: 15px;
+
+      a,
+      a:hover {
+        border-bottom: 0;
+        text-decoration: none;
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    li.opencdc-menu-item:hover a,
+    li.opencdc-menu-item.active a {
+      color: #FFDD75;
+      text-decoration: underline;
+    }
+  }
+}

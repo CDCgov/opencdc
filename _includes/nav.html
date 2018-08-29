@@ -1,0 +1,27 @@
+<nav class="opencdc-navbar">
+  <ul class="opencdc-nav-list">
+    {% assign home_active = nil %}
+    {% if page.layout == 'home' %}
+      {% assign home_active = ' active' %}
+    {% endif %}
+    <li class="opencdc-menu-item{{ home_active }}">
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+    {% assign search_active = nil %}
+    {% if page.url == '/search.html' %}
+      {% assign search_active = ' active' %}
+    {% endif %}
+    <li class="opencdc-menu-item{{ search_active }}">
+      <a href="{{ site.baseurl }}/search.html">Search</a>
+    </li>
+    {% for link in site.data.navigation.header %}
+      {% assign active = nil %}
+      {% if page.url == link.url %}
+        {% assign active = ' active' %}
+      {% endif %}
+      <li class="opencdc-menu-item{{ active }}">
+        <a href="{{ link.url | prepend: site.baseurl }}">{{ link.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
