@@ -14,14 +14,12 @@
   tagline: Foundation Services Open Source Projects
   repos:
     - title: FDNS
-      docker: cdc/fdns
       url: fdns
       description: This is a central repository with high level information on Foundation Services, tutorials, example code, etc.
       tags:
         - microservice
       license: Apache License 2.0
     - title: FDNS-UI-React
-      docker: cdc/fdns-ui-react
       url: fdns-ui-react
       description: This is the repository with the a front-end library built in React, will also need to publish to NPM.
       tags:
@@ -30,7 +28,6 @@
         - react
       license: Apache License 2.0
     - title: FDNS-JS-SDK
-      docker: cdc/fdns-js-sdk
       url: fdns-js-sdk
       description: This is the repository with the JavaScript SDK for Foundation Services, will also need to publish to NPM.
       tags:
@@ -38,7 +35,6 @@
         - javascript
       license: Apache License 2.0
     - title: FDNS-Java-SDK
-      docker: cdc/fdns-java-sdk
       url: fdns-java-sdk
       description: This is the repository with the Java SDK for Foundation Services, will also need to publish to Maven.
       tags:
@@ -46,7 +42,6 @@
         - java
       license: Apache License 2.0
     - title: FDNS-Rules-Engine
-      docker: cdc/fdns-rules-engine
       url: fdns-rules-engine
       description: This the repository with the Java Library for the Business Rules Engine, will also need to publish to Maven.
       tags:
@@ -54,7 +49,7 @@
         - java
       license: Apache License 2.0
     - title: FDNS-MS-Gateway
-      docker: cdc/fdns-ms-gateway
+      docker: cdcgov/fdns-ms-gateway
       url: fdns-ms-gateway
       description: This is the repository with the API gateway to connect the other microservices together.
       tags:
@@ -63,7 +58,7 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Storage
-      docker: cdc/fdns-ms-storage
+      docker: cdcgov/fdns-ms-storage
       url: fdns-ms-storage
       description: This is the repository with the Storage layer for the Data Lake. This is the immutable layer.
       tags:
@@ -72,7 +67,7 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Object
-      docker: cdc/fdns-ms-object
+      docker: cdcgov/fdns-ms-object
       url: fdns-ms-object
       description: This is the repository with the Object layer for the Data Lake. This is the mutable layer.
       tags:
@@ -82,7 +77,7 @@
         - mongodb
       license: Apache License 2.0
     - title: FDNS-MS-Indexing
-      docker: cdc/fdns-ms-indexing
+      docker: cdcgov/fdns-ms-indexing
       url: fdns-ms-indexing
       description: This is the repository with the Indexing layer for the Data Lake. This is the navigation layer.
       tags:
@@ -91,7 +86,7 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-HL7-Utils
-      docker: cdc/fdns-ms-hl7-utils
+      docker: cdcgov/fdns-ms-hl7-utils
       url: fdns-ms-hl7-utils
       description: This is the repository with the HL7 utilities service to parse, validate and generate sample HL7 data.
       tags:
@@ -100,7 +95,7 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-CDA-Utils
-      docker: cdc/fdns-ms-cda-utils
+      docker: cdcgov/fdns-ms-cda-utils
       url: fdns-ms-cda-utils
       description: This is the repository with the CDA utilities service to parse, validate and generate sample CDA data.
       tags:
@@ -109,7 +104,7 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Combiner
-      docker: cdc/fdns-ms-combiner
+      docker: cdcgov/fdns-ms-combiner
       url: fdns-ms-combiner
       description: This is the repository with the Combiner service to combine JSON files into a single CSV or XLSX file.
       tags:
@@ -118,7 +113,7 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Rules
-      docker: cdc/fdns-ms-rules
+      docker: cdcgov/fdns-ms-rules
       url: fdns-ms-rules
       description: This is the repository with the Business Rules Engine for ingesting and validating JSON files.
       tags:

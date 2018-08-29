@@ -30,7 +30,7 @@ banner-button-title:
       </div>
       <div class="resources">
         {% if repo.docker %}
-          <a href="https://hub.docker.com/{{ repo.docker }}" target="_blank" class="pull-right"><img src="{{ site.baseurl }}/assets/img/docker.svg" alt="Docker Image Available" /></a>
+          <a href="https://hub.docker.com/r/{{ repo.docker }}" target="_blank" class="pull-right"><img src="{{ site.baseurl }}/assets/img/docker.svg" alt="Docker Image Available" /></a>
         {% endif %}
         <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank">https://github.com/CDCgov/{{ repo.url }}</a>
       </div>
