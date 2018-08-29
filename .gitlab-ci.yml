@@ -1,6 +1,6 @@
 image: ruby:2.3
 
-variables: 
+variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
@@ -14,7 +14,7 @@ pages:
   artifacts:
     paths:
       - public
-    only:
-      - master
-    tags:
-      - pages
+  only:
+    - master
+  tags:
+    - pages
