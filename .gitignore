@@ -5,3 +5,4 @@ _site.zip
 .idea/
 npm-debug.log
 node_modules
+.ruby-version

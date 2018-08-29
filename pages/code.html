@@ -11,7 +11,7 @@ banner-button-title:
 ---
 
 {% for section in site.data.code %}
-<section class="usa-section project" id="{{ section.id }}">
+<section class="opencdc-section project" id="{{ section.id }}">
   <div class="section-header">
     <h2>
       <span class="text">{{section.title}}</span>
@@ -35,13 +35,13 @@ banner-button-title:
         <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank">https://github.com/CDCgov/{{ repo.url }}</a>
       </div>
       <p class="description">{{ repo.description }}</p>
-      <div class="usa-grid-full">
-        <div class="usa-width-one-half tags">
+      <div class="opencdc-grid-full">
+        <div class="opencdc-width-one-half tags">
           {% for tag in repo.tags %}
             <a href="{{ 'https://github.com/search?q=org%3ACDCgov+topic%3A' | append: tag }}" target="_blank">#{{ tag }}</a>
           {% endfor %}
         </div>
-        <div class="usa-width-one-half license">
+        <div class="opencdc-width-one-half license">
           {{repo.license}}
         </div>
       </div>

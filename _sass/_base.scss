@@ -52,15 +52,15 @@ main {
 form {
   max-width: 100%;
 }
-.usa-content > p,
-.usa-content > ul,
-.usa-content > ol,
-.usa-content > h1,
-.usa-content > h2,
-.usa-content > h3,
-.usa-content > h4,
-.usa-content > h5,
-.usa-content > h6 {
+.opencdc-content > p,
+.opencdc-content > ul,
+.opencdc-content > ol,
+.opencdc-content > h1,
+.opencdc-content > h2,
+.opencdc-content > h3,
+.opencdc-content > h4,
+.opencdc-content > h5,
+.opencdc-content > h6 {
   max-width: 62.5rem;
 }
 a {
@@ -98,10 +98,33 @@ div.skip-nav a:focus {
 }
 
 @media (min-width: 600px) {
-  .usa-width-one-whole.usa-content {
+  .opencdc-width-one-whole.opencdc-content {
     position: relative;
     left: 50%;
     max-width: 62.5rem;
     margin-left: -31.25rem;
   }
+}
+
+
+.opencdc-grid {
+  display: flex;
+
+  .opencdc-whole-row {
+    flex: 1;
+  }
+  
+  .opencdc-one-half, .opencdc-one-sixth {
+    flex: 1;
+  }
+  .opencdc-five-sixths {
+    flex: 5;
+  }
+}
+.pull-right {
+  float: right;
+}
+
+.opencdc-content {
+  padding: 0 2rem;
 }

@@ -35,7 +35,7 @@ $cdc-blue: #075290;
 $cdc-logo-blue: #115daa;
 $cdc-blue-alpha-75: rgba(7, 82, 144, 0.75);
 
-$dark-blue: #004884;
+$dark-blue: #005eaa;
 
 // radius
 $radius: 5px;
@@ -49,7 +49,7 @@ $radius: 5px;
     background: -o-linear-gradient(top,  $top 0%,$bottom 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  $top 0%,$bottom 100%); /* IE10+ */
     background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004884', endColorstr='#115daa',GradientType=0 ); /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$top, endColorstr=$bottom,GradientType=0 ); /* IE6-9 */
 }
 
 @mixin border-radius($radius) {
@@ -95,7 +95,6 @@ $on-laptop:        800px;
         "collaborate",
         "data-listing",
         "events",
-        "navbar",
         "sidenav",
         "home",
         "hero",
@@ -104,5 +103,6 @@ $on-laptop:        800px;
         "projects",
         "footer",
         "header",
-        "search"
+        "search",
+        "nav"
 ;

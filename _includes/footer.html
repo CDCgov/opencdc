@@ -1,26 +1,106 @@
-<footer class="usa-footer">
-  <div class="usa-grid">
-    <nav>
-      {% for section in site.data.navigation.footer %}
-        <div class="usa-width-one-sixth">
-          <h4>{{ section.title }}</h4>
-          <ul class="usa-unstyled-list">
-            {% for item in section.items %}
-              <li><a href="{{ section.url | prepend: site.baseurl | append: '#' | append: item.id }}">{{ item.label }}</a></li>
-            {% endfor %}
+<footer role="contentinfo" aria-label="Footer">
+  <div class="container-fluid footer-wrapper">
+    <div class="container">
+      <!-- Begin included content (from /TemplatePackage/4.0/includes/footer-cdc.html) -->
+      <div class="row">
+        <div class="col-md-3">
+          <strong>CONTACT CDC-INFO</strong>
+          <div class="row mt-2">
+            <div class="col-1"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="#phone"></use>
+              </svg></div>
+            <div class="col">
+              <span>Have questions? We have answers.</span>
+              <span>1-800-CDC-INFO (800-232-4636)</span>
+              <span>TTY: 888-232-6348</span>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-1"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="#email"></use>
+              </svg></div>
+            <div class="col">
+              <a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx">Email CDC-INFO</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 mt-md-0">
+          <strong>CDC INFORMATION</strong>
+          <ul>
+            <li><a href="https://www.cdc.gov/about/default.htm">About CDC</a></li>
+            <li><a href="https://jobs.cdc.gov">Jobs</a></li>
+            <li><a href="https://www.cdc.gov/funding">Funding</a></li>
+            <li><a href="https://www.cdc.gov/Other/policies.html">Policies</a></li>
+            <li><a href="https://www.cdc.gov/other/plugins/index.html">File Viewers &amp; Players</a></li>
           </ul>
         </div>
-      {% endfor %}
-      <div class="usa-footer-logo usa-width-one-sixth">
-        <p>
-          <img src="{{ site.baseurl }}/assets/img/US_CDC_logo.svg" alt="U.S. Centers for Disease Control and Prevention"><br/>
-          <small>
-            1600 Clifton Road Atlanta, GA 30329-4027 USA<br/>
-            800-CDC-INFO (800-232-4636), TTY: 888-232-6348<br/>
-            <a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx" target="_blank">Email CDC-INFO</a>
-          </small>
-        </p>
+        <div class="col-md-3">
+          <ul>
+            <li><a href="https://www.cdc.gov/Other/policies.html">Privacy</a></li>
+            <li><a href="https://www.cdc.gov/od/foia">FOIA</a></li>
+            <li><a href="https://www.cdc.gov/eeo/nofearact/index.htm">No Fear Act</a></li>
+            <li><a href="https://oig.hhs.gov">OIG</a></li>
+            <li><a href="https://www.cdc.gov/other/nondiscrimination.html">Nondiscrimination</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-2 mt-md-0 connect-icons">
+          <strong>CONNECT WITH CDC</strong><br>
+          <ul class="list-inline mt-3">
+            <li><a href="https://www.facebook.com/CDC" target="_blank"><span class="sr-only">Facebook</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#fb"></use>
+                </svg></a></li>
+            <li><a href="https://twitter.com/CDCgov" target="_blank"><span class="sr-only">Twitter</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li><a href="https://www.youtube.com/user/CDCstreamingHealth" target="_blank"><span class="sr-only">Youtube</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#youtube"></use>
+                </svg></a></li>
+            <li><a href="https://www.instagram.com/CDCgov/" target="_blank"><span class="sr-only">Instagram</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#ig"></use>
+                </svg></a></li>
+          </ul><br class="d-none d-md-block">
+          <ul class="list-inline mt-2">
+            <li><a href="https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https://www.cdc.gov/phap/" class="footer-syndlink"><span class="sr-only">Syndicate</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#synd"></use>
+                </svg></a></li>
+            <li><a href="https://www.cdc.gov/cdctv"><span class="sr-only">CDC TV</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#cdctv"></use>
+                </svg></a></li>
+            <li><a href="https://tools.cdc.gov/podcasts/rss.asp"><span class="sr-only">RSS</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#rss"></use>
+                </svg></a></li>
+            <li><a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx"><span class="sr-only">Email</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#email"></use>
+                </svg></a></li>
+          </ul>
+        </div>
       </div>
-    </nav>
+      <!-- End included content (from /TemplatePackage/4.0/includes/footer-cdc.html) -->
+    </div>
+  </div>
+  <div class="container-fluid agency-footer">
+    <div class="container">
+      <!-- Begin included content (from /TemplatePackage/4.0/includes/footer-agency.html) -->
+      <div class="row" itemscope="itemscope" itemtype="https://schema.org/Organization">
+        <div class="col-md-6 mt-1 mt-md-0">
+          <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+            <span itemprop="url"><a href="https://www.hhs.gov">U.S. Department of Health &amp; Human Services</a></span>
+          </span>
+        </div>
+        <div class="col-md-3 mt-1 mt-md-0">
+          <span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+            <span itemprop="url"><a href="https://www.usa.gov/">USA.gov</a></span>
+          </span>
+        </div>
+        <div class="col-md-3 mt-1 mt-md-0">
+          <span class="value">
+            <span><a href="https://www.cdc.gov/Other/disclaimer.html" class="footer-ext">CDC Website Exit Disclaimer</a> <svg class="icon x16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="#ext"></use>
+              </svg></span>
+          </span>
+        </div>
+      </div>
+      <!-- End included content (from /TemplatePackage/4.0/includes/footer-agency.html) -->
+    </div>
   </div>
 </footer>

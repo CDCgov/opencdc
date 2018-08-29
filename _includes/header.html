@@ -1,66 +1,183 @@
-<div class="skip-nav">
-  <a href="#content" class="skips">Skip to main content</a>
+<div id="skipmenu">
+  <a class="skippy sr-only-focusable" href="#content">Skip directly to site content</a>
+  <a class="skippy sr-only-focusable" href="#share-nav">Skip directly to page options</a>
+  <a class="skippy d-none d-lg-block sr-only-focusable" href="#az-large">Skip directly to A-Z link</a>
+  <a class="skippy d-none d-md-block d-lg-none sr-only-focusable" href="#az-medium">Skip directly to A-Z link</a>
+  <a class="skippy d-md-none sr-only-focusable" href="#az-small">Skip directly to A-Z link</a>
+</div>
+  
+<!-- Begin included content (from /TemplatePackage/4.0/includes/global-alert.html) -->
+<!-- End included content (from /TemplatePackage/4.0/includes/global-alert.html) -->
+<!-- TO DO: Intranet Links Bar -->
+<div class="container-fluid header-wrapper">
+  <div class="container">
+    <header role="banner" aria-label="Header" class="pt-2 pb-2">
+      <div class="row">
+        <div class="col cdc-logo">
+          <!-- Begin included content (from /TemplatePackage/4.0/includes/header-logo.html) -->
+          <a href="https://www.cdc.gov"><span class="sr-only">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</span><svg width="470" height="47" class="d-none d-md-block logo-large" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <use xlink:href="#masthead-subpage" /></svg>
+          </a>
+          <a href="https://www.cdc.gov" tabindex="-1"><span class="sr-only">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</span><svg width="246" height="41" class="d-md-none logo-small" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <use xlink:href="#masthead-1-col" /></svg></a>
+          <!-- End included content (from /TemplatePackage/4.0/includes/header-logo.html) -->
+        </div>
+        <div class="col-2 col-md-3 col-xl-4 col-xxl-3 tp-search">
+          <!-- Begin included content (from /TemplatePackage/4.0/includes/header-search.html) -->
+          <!--1 large search -->
+          <div class="d-xl-block d-none large-search">
+            <form accept-charset="UTF-8" action="https://search.cdc.gov/search" method="get">
+              <div class="fs0875 text-right">
+                <a id="az-large" href="https://www.cdc.gov/az/">A-Z Index</a>
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" name="query">
+                <div class="input-group-append">
+                  <button class="btn btn-search search-submit" type="button"><span class="sr-only">Submit</span><svg class="svg-icon fill-b" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <use xlink:href="#sym-search-icon" /></svg></button>
+                </div>
+              </div>
+              <input type="hidden" name="sitelimit" value="" />
+              <input type="hidden" name="utf8" value="✓" />
+              <input type="hidden" name="affiliate" value="cdc-main" />
+            </form>
+          </div>
+          <!-- 2 medium search -->
+          <div class="d-none d-md-block d-xl-none medium-search">
+            <form accept-charset="UTF-8" action="https://search.cdc.gov/search" method="get">
+              <button class="btn btn-primary dropdown-toggle no-toggle search-button ssi" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="float-left">Search</span> <svg class="dropdown-menu-medium-search-icon svg-icon fill-w align-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#sym-search-icon" /></svg><svg class="dropdown-menu-medium-close-icon svg-icon fill-w align-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#sym-close-icon" /></svg></button>
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-medium-search">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search" aria-label="Search" name="query">
+                  <div class="input-group-append">
+                    <button class="btn search-submit" type="button"><span class="sr-only">Submit</span><svg class="svg-icon fill-p" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <use xlink:href="#sym-search-icon" /></svg></button>
+                  </div>
+                </div>
+                For a full list of topics: <a id="az-medium" href="https://www.cdc.gov/az/">A-Z Index</a>
+              </div>
+              <input type="hidden" name="sitelimit" value="" />
+              <input type="hidden" name="utf8" value="✓" />
+              <input type="hidden" name="affiliate" value="cdc-main" />
+            </form>
+          </div>
+          <!-- 3 small search -->
+          <div class="d-md-none small-search">
+            <form accept-charset="UTF-8" action="https://search.cdc.gov/search" method="get">
+              <button class="btn bg-white dropdown-toggle no-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Search Dropdown</span><svg class="dropdown-menu-medium-search-icon svg-icon fill-p va-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#sym-search-icon" /></svg><svg class="dropdown-menu-medium-close-icon svg-icon fill-p va-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#sym-close-icon" /></svg></button>
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-small-search">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search" aria-label="Search" name="query">
+                  <div class="input-group-append">
+                    <button class="btn search-submit" type="button"><span class="sr-only">Submit</span><svg class="svg-icon fill-p x40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <use xlink:href="#sym-search-icon" /></svg></button>
+                  </div>
+                </div>
+                For a full list of topics: <a id="az-small" href="https://www.cdc.gov/az/">A-Z Index</a>
+              </div>
+              <input type="hidden" name="sitelimit" value="" />
+              <input type="hidden" name="utf8" value="✓" />
+              <input type="hidden" name="affiliate" value="cdc-main" />
+            </form>
+          </div>
+          <!-- End included content (from /TemplatePackage/4.0/includes/header-search.html) -->
+        </div>
+      </div>
+    </header>
+  </div>
 </div>
 
-<header class="usa-header usa-header-extended" role="banner">
-  <!-- Gov banner BEGIN -->
-  <div class="usa-banner">
-    <div class="usa-accordion">
-      <header class="usa-banner-header">
-        <div class="usa-grid usa-banner-inner">
-          <img src="{{ site.baseurl }}/assets/uswds/img/favicons/favicon-57.png" alt="U.S. flag">
-          <p>An official website of the United States government</p>
-          <button class="usa-accordion-button usa-banner-button" aria-expanded="false" aria-controls="gov-banner">
-      <span class="usa-banner-button-text">Here's how you know</span>
-    </button>
-        </div>
-      </header>
-      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
-        <div class="usa-banner-guidance-gov usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/uswds/img/icon-dot-gov.svg" alt="Dot gov">
-          <div class="usa-media_block-body">
-            <p>
-              <strong>The .gov means it’s official.</strong>
-              <br> Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
-            </p>
-          </div>
-        </div>
-        <div class="usa-banner-guidance-ssl usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/uswds/img/icon-https.svg" alt="SSL">
-          <div class="usa-media_block-body">
-            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted — in other words, any information or browsing history that you provide is transmitted securely.</p>
-          </div>
+<div class="container-fluid site-title">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="display-6 text-white fw-500 pt-1 pb-1">
+          <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
+            {% if site.logo %}
+              <img class="header-logo" src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
+            {% else %}
+              <h1 class="opencdc-header-title">{{ site.title }}</h1>
+            {% endif %}
+          </a>
         </div>
       </div>
     </div>
   </div>
-  <!-- Gov banner END -->
-  <nav class="usa-site-navbar">
-    <div class="usa-grid top-nav">
-      <div id="logo">
-        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
-          {% if site.logo %}
-            <img class="header-logo" src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
-          {% else %}
-            <h1 class="usa-header-title">{{ site.title }}</h1>
-          {% endif %}
-        </a>
-      </div>
-      <ul class="usa-nav-list usa-unstyled-list">
-        {% assign search_active = nil %}
-        {% if page.url == '/search.html' %}
-          {% assign search_active = ' active' %}
-        {% endif %}
-        <li class="usa-menu-item{{ search_active }}"><a href="{{ site.baseurl }}/search.html"> <i class="fa fa-search"></i> Search</a></li>
-        {% for link in site.data.navigation.header %}
-          {% assign active = nil %}
-          {% if page.url == link.url %}
-            {% assign active = ' active' %}
-          {% endif %}
-          <li class="usa-menu-item{{ active }}"><a href="{{ link.url | prepend: site.baseurl }}">{{ link.label }}</a></li>
-        {% endfor %}
-      </ul>
+</div>
+
+
+<nav role="navigation" aria-label="Mobile Nav" id="mobilenav" class="sticky-top">
+  <!-- Begin included content (from /TemplatePackage/4.0/includes/nav-mobile.html) -->
+  <div class="mobile-section-nav d-lg-none">
+    <div class="ct">
+      <!-- section nav area -->
+      <nav role="navigation" aria-label="Section Nav">
+
+        <div class="dropdown">
+          <button class="btn dropdown-toggle rounded-0 toggleMask" type="button" id="sectionNavButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mobile-title"></span>
+            <svg id="svg-down" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path>
+            </svg>
+          </button>
+
+          <div class="dropdown-menu w-100 rounded-0 m-0" id="mobileNav-dropdown" aria-labelledby="sectionNavButton">
+            <nav role="navigation" aria-label="Left Nav" id="leftnav">
+
+              <div class="list-group indicator-plus">
+                <ul></ul>
+              </div>
+              <a class="list-group-item mobile-section-nav-foot" href="#">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>home4</title>
+                  <path d="M9.984 20.016h-4.969v-8.016h-3l9.984-9 9.984 9h-3v8.016h-4.969v-6h-4.031v6z"></path>
+                </svg>
+
+                <span class="mobile-foot-title">TP Docs Home</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </nav>
     </div>
-    <br/>
-  </nav>
-</header>
+
+  </div>
+
+  <!-- End included content (from /TemplatePackage/4.0/includes/nav-mobile.html) -->
+</nav>
+
+<div class="container breadcrumb-share">
+  <div class="d-none d-lg-block">
+    <div class="row">
+      <div class="col-sm-9">
+        <!-- Breadcrumbs -->
+        <nav role="navigation" aria-label="Breadcrumb" class="d-none d-lg-block breadcrumbs">
+          <ol class="breadcrumb"></ol>
+        </nav>
+      </div>
+      <div class="col-sm-3 page-share">
+        <!-- Page Share -->
+        <!-- Begin included content (from /TemplatePackage/4.0/includes/page-share.html) -->
+        <nav id="share-nav" class="page-share-wrapper" role="navigation" aria-label="Social Media">
+          <ul class="float-right">
+            <li><a target="_blank" class="page-share-facebook metrics-share-facebook" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png"><span class="sr-only">Facebook</span><svg class="icon x24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#round-fb" /></svg></a></li>
+            <li><a target="_blank" class="page-share-twitter metrics-share-twitter" href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png"><span class="sr-only">Twitter</span><svg class="icon x24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#round-tw" /></svg></a></li>
+            <li><a target="_blank" class="page-share-email metrics-share-email" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png"><span class="sr-only">Email</span><svg class="icon x24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#round-em" /></svg></a></li>
+            <li><a target="_blank" class="page-share-syndication metrics-share-syndicate" href="https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https%3A%2F%2Fwww.cdc.gov%2Findex.htm"><span class="sr-only">Syndicate</span><svg class="icon x24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <use xlink:href="#round-synd" /></svg></a></li>
+          </ul>
+        </nav>
+        <!-- End included content (from /TemplatePackage/4.0/includes/page-share.html) -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gov banner END -->

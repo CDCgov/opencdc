@@ -2,11 +2,11 @@
   <div id="main" tabindex="-1" class="hero-img">
     <section class="hero-content">
       {% if page.layout == 'home' %}
-      <div class="usa-grid intro">
-        <div class="usa-width-one-half">
+      <div class="opencdc-grid intro">
+        <div class="opencdc-one-half">
           <h1>{{ page.hero-text }}</h1>
         </div>
-        <div class="usa-width-one-half">
+        <div class="opencdc-one-half">
           <a href="{{ '/code.html' | prepend: site.baseurl }}">
             <img class="" src="{{ site.baseurl }}/assets/img/img-hero-intro.svg" alt="hero api image">
           </a>
@@ -14,13 +14,13 @@
       </div>
       {% endif %}
       {% if page.layout == 'page' %}
-      <div class="usa-grid">
-        <div class="usa-width-one-whole usa-end-row">
+      <div class="opencdc-grid">
+        <div class="opencdc-whole-row">
           <h2>{{ page.banner-heading }}</h2> {% if page.banner-text %}
           <p>{{ page.banner-text }}</p>
           {% endif %} {% if page.banner-button-text %}
           <div class="center-content">
-            <a href="{{ page.banner-button-link}}" class="usa-button" title="{{ page.banner-button-title }}">{{ page.banner-button-text }}</a>
+            <a href="{{ page.banner-button-link}}" class="opencdc-button" title="{{ page.banner-button-title }}">{{ page.banner-button-text }}</a>
           </div>
           {% endif %}
         </div>

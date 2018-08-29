@@ -4,7 +4,7 @@
   background-position: 50% 50%;
   min-height: 400px;
   position: relative;
-  @include linearGradient(#004884, #115daa);
+  @include linearGradient(#005eaa, #005eaa);
 }
 
 .hero-border {
@@ -42,7 +42,7 @@
   }
 }
 
-.hero-search .usa-search.usa-search-big [type="search"], .hero-search .usa-search.usa-search-big .usa-search-input {
+.hero-search .opencdc-search.opencdc-search-big [type="search"], .hero-search .opencdc-search.opencdc-search-big .opencdc-search-input {
   border-color: #ccc;
   border-radius: 3px 0 0 3px;
   max-width: 100%;
@@ -59,10 +59,15 @@
 }
 
 .hero-content {
+  padding: 3rem;
+
   .intro {
     h1,h2 {
       color: #fff;
       padding-top: 0.25em;
+    }
+    h1 {
+      font-size: 28px;
     }
     a {
       text-decoration: none;
