@@ -52,17 +52,12 @@ main {
 form {
   max-width: 100%;
 }
-.opencdc-content > p,
-.opencdc-content > ul,
-.opencdc-content > ol,
-.opencdc-content > h1,
-.opencdc-content > h2,
-.opencdc-content > h3,
-.opencdc-content > h4,
-.opencdc-content > h5,
-.opencdc-content > h6 {
-  max-width: 62.5rem;
+
+.opencdc-content p {
+  line-height: 1.75em;
+  margin-bottom: 1.75rem;
 }
+
 a {
   color: #0071bc; }
   a:hover, a:active {
