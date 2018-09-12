@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "measurementType": {
+    "method": "projects"
+  },
+  "agency": "CDC",
+  "releases": [
+    {
+      "name": "opencdc",
+      "organization": "OCIO",
+      "description": "Source code for collaborative web site collecting of publicly available resources-code, data, api- from www.cdc.gov that are relevant to the open source community.",
+      "version": "0.5.0",
+      "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+          {
+            "name": "Public Domain, CC0-1.0, Apache License 2.0",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        ]
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "status": "Development",
+      "repositoryURL": "https://github.com/cdcgov/opencdc",
+      "tags": [
+        "public health",
+        "informatics",
+        "collaboration",
+        "community"
+      ],
+      "languages": [
+        "markdown",
+        "javascript"
+      ],
+      "contact": {
+        "name": "CDC Info",
+        "email": "cdcinfo@cdc.gov"
+      },
+      "date": {
+        "created": "2018-09-12"
+      },
+      "cdc-config": {
+        "projectType": "config",
+        "dontCatalog": {
+          "why": "not code",
+          "validated": "2018-09-12"
+        }
+      }
+    }
+  ]
+}
