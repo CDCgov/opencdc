@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-hero-text: Explore open-source data, code and APIs and join a developer community with CDC Open Technology
-banner-heading: Be Open First
-banner-text: In supporting our mission to protect America from health, saftey and security threats, both foreign and in the U.S., one of our goals is to be open. "Being Open" enables the American people access to high-quality public health data sets, APIs, and code repositories. Thus driving innovation and increasing the health security of our nation.
+hero-text: Join a developer community with CDC Open Technology to explore open-source data, code and APIs
+banner-heading: Open Technology
+banner-text: As the nation's health protection agency, CDC saves lives and protects people from health threats. We also strive to be open with our public health data sets, APIs and code repositories. By sharing CDC resources, we hope to foster innovation and increase the health security of our nation.
 ---
