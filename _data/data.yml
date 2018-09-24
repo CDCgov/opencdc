@@ -1,7 +1,7 @@
 - title: Data.CDC.gov
   id: data-cdc-gov
   url: https://data.cdc.gov
-  tagline: "A repository of all available data sets with a Socrata Open Data API. Available categories include: Administrative, Biomonitoring, Child Vaccinations, Flu Vaccinations, Health Statistics, Injury & Violence, Motor Vehicle, NCHS, NNDSS, Pregnancy & Vaccination, STDs, Smoking & Tobacco Use, Teen Vaccinations, Traumatic Brain Injury, Vaccinations and Web Metrics."
+  tagline: "Data.CDC.gov is a repository of all available data sets with a Socrata Open Data API. Available categories include: Administrative, Biomonitoring, Child Vaccinations, Flu Vaccinations, Health Statistics, Injury & Violence, Motor Vehicle, NCHS, NNDSS, Pregnancy & Vaccination, STDs, Smoking & Tobacco Use, Teen Vaccinations, Traumatic Brain Injury, Vaccinations and Web Metrics."
 - title: chronicdata.CDC.gov
   id: chronicdata-cdc-gov
   url: https://chronicdata.cdc.gov
@@ -13,15 +13,15 @@
 - title: National Center for Health Statistics
   id: nchs
   url: https://www.cdc.gov/nchs/data_access/ftp_data.htm
-  tagline: The National Center for Health Statistics (NCHS) is pleased to offer downloadable public-use data files through the Centers for Disease Control and Prevention’s (CDC) FTP file server. Users of this service have access to data sets, documentation, and questionnaires from NCHS surveys and data collection systems. Downloading instructions are available in “readme” files.
+  tagline: The National Center for Health Statistics (NCHS) offers downloadable public-use data files through CDC's FTP file server. Users of this service have access to data sets, documentation and questionnaires from NCHS surveys and data collection systems. Downloading instructions are available in “readme” files.
 - title: Injury & Violence
   id: injury-violence
   url: https://www.cdc.gov/injury/wisqars/index.html
-  tagline: CDC’s WISQARS™ (Web-based Injury Statistics Query and Reporting System) is an interactive, online database that provides fatal and nonfatal injury, violent death, and cost of injury data from a variety of trusted sources. Researchers, the media, public health professionals, and the public can use WISQARS™ data to learn more about the public health and economic burden associated with unintentional and violence-related injury in the United States.
+  tagline: CDC’s WISQARS™ (Web-based Injury Statistics Query and Reporting System) is an interactive, online database that provides fatal and nonfatal injury, violent death and cost of injury data from a variety of trusted sources. Researchers, the media, public health professionals and the public can use WISQARS™ data to learn more about the public health and economic burden associated with unintentional and violence-related injury in the United States.
 - title: National Notifiable Diseases Surveillance System
   id: nndss
   url: https://wwwn.cdc.gov/nndss/data-and-statistics.html
-  tagline: The National Notifiable Diseases Surveillance System (NNDSS) is a nationwide collaboration that enables all levels of public health—local, state, territorial, federal, and international—to share notifiable disease related health information. Public health uses this information to monitor, control, and prevent the occurrence and spread of state-reportable and nationally notifiable infectious and noninfectious diseases and conditions and outbreaks.
+  tagline: The National Notifiable Diseases Surveillance System (NNDSS) is a nationwide collaboration that enables all levels of public health—local, state, territorial, federal and international—to share notifiable disease related health information. Public health uses this information to monitor, control and prevent the occurrence and spread of state-reportable and nationally notifiable infectious and noninfectious diseases and conditions and outbreaks.
 - title: Vaccination
   id: vaccination
   url: https://www.cdc.gov/vaccines/vaxview/index.html
