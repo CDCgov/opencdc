@@ -1,23 +1,24 @@
+title: What is your background?
 - title: Healthcare
   icon: ico-health
   id: healthcare
-  description: If your role is in healthcare, you will find many useful resources through CDC Open Technology. We have made large data sets available including the <a href="data.html#nchs">National Center for Health Statistics</a>, the <a href="data.html#nndss">National Notifiable Diseases Surveillance System</a>, and <a href="data.html">others</a>. These data sets are made available to you for use in reports and publications. We also have a API endpoints such as an <a href="apis.html#open-data">Open Data API</a>, <a href="apis.html#phin-vads">Vocabulary API</a> and <a href="apis.html">others</a>.
+  description: If your role is in healthcare, you may be interested in the large data sets we have available including the <a href="data.html#nchs">National Center for Health Statistics</a>, the <a href="data.html#nndss">National Notifiable Diseases Surveillance System</a> and <a href="data.html">others</a>. These data sets are made available to you for use in reports and publications. We also have a API endpoints such as an <a href="apis.html#open-data">Open Data API</a>, <a href="apis.html#phin-vads">Vocabulary API</a> and <a href="apis.html">others</a>.
 - title: Developer
   icon: ico-dev
   id: developer
-  description: As a developer, your role is crucial to help build us innovative solutions that improve health, safety and security threats. Access CDC Open Technology through our <a href="data.html">data sets</a>, <a href="code.html">code repositories</a>, and <a href="apis.html">APIs</a>. We also welcome contributions through <a href="http://github.com/CDCgov" target="_blank">GitHub</a>, please check the repositories for Contributor information.
+  description: As a developer, your role is crucial to help build us innovative solutions that improve health, safety and security threats. Access CDC Open Technology through our <a href="data.html">data sets</a>, <a href="code.html">code repositories</a> and <a href="apis.html">APIs</a>. We also welcome contributions through <a href="http://github.com/CDCgov" target="_blank">GitHub</a>, please check the repositories for Contributor information.
 - title: Government
   icon: ico-gov
   id: government
-  description: We're government too, we believe government agencies can work together by collaborating and sharing <a href="data.html">data sets</a>, <a href="code.html">code repositories</a>, and <a href="apis.html">APIs</a> that work towards improving the services provided to the American people.
+  description: We're government too! We believe government agencies can work together by collaborating and sharing <a href="data.html">data sets</a>, <a href="code.html">code repositories</a>, and <a href="apis.html">APIs</a> that work towards improving the services provided to the American people.
 - title: Educator
   icon: ico-edu
   id: educator
-  description: Educators will find many resources that are instrumental in educating their students. Health educators will find uses for our many <a href="data.html">data sets</a> while studies in informatics may be able to put our <a href="code.html">code repositories</a>, and <a href="apis.html">APIs</a> to great use.
+  description: You will find many resources that are instrumental in educating your students on this site. There are many uses for our numerous <a href="data.html">data sets</a>, and studies in informatics may be able to put our <a href="code.html">code repositories</a>, and <a href="apis.html">APIs</a> to great use.
 - title: Media
   icon: ico-media
   id: media
-  description: If your role is in the media, you may be interested in the many <a href="data.html">data sets</a> we have published which include information like health statistics. We also have a <a href="apis.html#content-syndication">Content Syndication API</a> for easily integrating CDC media into your publication.
+  description: If you are a part of the media, you may be interested in the many <a href="data.html">data sets</a> we have published, which include information like health statistics. We also have a <a href="apis.html#content-syndication">Content Syndication API</a> for easily integrating CDC media into your publication.
 - title: Non-Profit
   icon: ico-ngo
   id: non-profit
