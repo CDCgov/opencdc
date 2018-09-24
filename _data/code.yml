@@ -4,7 +4,7 @@
   repos:
     - title: BlockchainTB
       url: blockchainTB
-      description: Proof of project for CDC's r&d with using blockchain to support TB.
+      description: Proof of project for CDC's research and development (R&D) with using blockchain to support TB.
       tags:
         - blockchain
       license: Apache License 2.0
@@ -51,7 +51,7 @@
     - title: FDNS-MS-Gateway
       docker: cdcgov/fdns-ms-gateway
       url: fdns-ms-gateway
-      description: This is the repository with the API gateway to connect the other microservices together.
+      description: This is the repository with the API gateway to connect other microservices together.
       tags:
         - microservice
         - java
