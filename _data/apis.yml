@@ -1,7 +1,7 @@
 - title: Open Data
   id: open-data
   url: https://data.cdc.gov
-  tagline: A repository of all available data sets with a Socrata Open Data API.
+  tagline: Open Data is a repository of all available data sets with a Socrata Open Data API.
   docs: https://dev.socrata.com/docs/endpoints.html
   arch: REST
   formats: 
@@ -11,7 +11,7 @@
 - title: PHIN VADS
   id: phin-vads
   url: http://phinvads.cdc.gov/vocabService/v2
-  tagline: PHIN VADS provides standard vocabularies to CDC and its public health partners in one place. PHIN VADS is a web-based enterprise vocabulary system for accessing, searching, and distributing vocabularies used in public health and clinical care practice.
+  tagline: PHIN VADS provides standard vocabularies to CDC and its public health partners in one place. PHIN VADS is a web-based enterprise vocabulary system for accessing, searching and distributing vocabularies used in public health and clinical care practice.
   docs: http://phinvads.cdc.gov/vads/developersGuide.action
   arch: REST
   formats:
@@ -27,7 +27,7 @@
 - title: Content Syndication
   id: content-syndication
   url: https://tools.cdc.gov/api/v2
-  tagline: Content syndication allows CDC to offer web content to other sites and applications. Use our content on your site! It is as easy as identifying the content you want, and then pasting a small section of code from our site to yours.
+  tagline: Content syndication allows CDC to offer web content to other sites and applications. It is as easy as identifying the content you want, and then pasting a small section of code from our site to yours.
   docs: https://tools.cdc.gov/api/docs/info.aspx#response
   arch: REST
   formats:
