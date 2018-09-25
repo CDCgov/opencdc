@@ -11,6 +11,11 @@
   visibility: hidden;
 }
 
+.follower {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 /* Role display for personas */
   section.roles {
     text-align: center;
@@ -19,6 +24,10 @@
       text-align: center;
     }
     .text {
+      text-align: left;
+    }
+
+    h2{
       text-align: left;
     }
 

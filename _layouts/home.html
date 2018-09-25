@@ -29,16 +29,18 @@
           </div>
         </section>
         {% endif %}
-        <section class="opencdc-section roles">
-          <div class="opencdc-grid">
+        <section class="opencdc-section roles follower">
+          <h2 class="follower">What is your background?</h2>
+          <div class="opencdc-grid roles">
             {% for role in site.data.roles %}
-            <div class="opencdc-one-sixth">
-              <a href="{{ '/about.html' | prepend: site.baseurl | append: '#' | append: role.id }}">
-                <img src="{{ site.baseurl }}/assets/img/{{ role.icon }}.svg" alt="{{ role.title }}">
-                <h4>{{ role.title }}</h4>
-              </a>
-            </div>
+              <div class="opencdc-one-sixth">
+                <a href="{{ '/about.html' | prepend: site.baseurl | append: '#' | append: role.id }}">
+                  <img src="{{ site.baseurl }}/assets/img/{{ role.icon }}.svg" alt="{{ role.title }}">
+                  <h4>{{ role.title }}</h4>
+                </a>
+              </div>
             {% endfor %}
+            
           </div>
         </section>
       </div>
