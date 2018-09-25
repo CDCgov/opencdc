@@ -1,0 +1,26 @@
+---
+layout: page
+title: About
+permalink: /about.html
+category: about
+banner-heading: About
+banner-text: As the nation's health protection agency, CDC saves lives and protects people from health threats. We also strive to be open with our public health data sets, APIs and code repositories. By sharing CDC resources, we hope to foster innovation and increase the health security of our nation.
+banner-text: CDC Open Technology is an open innovation program sponsored by CDC's Office of the Chief Information Officer. You can view more information on the organization <a href="https://www.cdc.gov/od/ocio/index.htm">here</a>.
+---
+
+<div id="about">
+<h2>What is your background?</h2>
+{% for role in site.data.roles %}
+  <section class="opencdc-section roles" id="{{ role.id }}">
+    <div class="opencdc-grid">
+      <div class="opencdc-width-one-sixth icon">
+        <img src="{{ site.baseurl }}/assets/img/{{ role.icon }}.svg" alt="{{role.title}}">
+      </div>
+      <div class="opencdc-width-five-sixths text">
+        <h3>{{ role.title }}</h3>
+        <p>{{ role.description }}</p>
+      </div>
+    </div>
+  </section>
+{% endfor %}
+</div>
