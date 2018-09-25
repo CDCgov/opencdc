@@ -7,8 +7,8 @@ header:
     url: /apis.html
   - label: Events
     url: /events.html
-  - label: Collaborate
-    url: /collaborate.html
+  - label: About
+    url: /about.html
 
 footer:
   - title: Data Sets
@@ -57,8 +57,8 @@ footer:
         id: webinars
       - label: Resources
         id: resources
-  - title: Collaborate
-    url: /collaborate.html
+  - title: About
+    url: /about.html
     items:
       - label: Healthcare
         id: healthcare
