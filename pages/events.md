@@ -4,7 +4,7 @@ title: Events
 permalink: /events.html
 category: events
 banner-heading: Events
-banner-text: Here you will find information on events and resources relating to CDC Open Technology. Please keep checking back for more information.
+banner-text: Here you will find information on events and resources relating to CDC Open Technology. Periodically, we will host hackathons to find innovative solutions for public health issues using technology and data. We will also host webinars and other events to share information on CDC Open Technology and available resources. Please keep checking back to see upcoming events.
 banner-button-text:
 banner-button-link:
 banner-button-title:
