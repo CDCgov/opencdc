@@ -1,0 +1,43 @@
+---
+layout: page
+title: Events
+permalink: /events.html
+category: events
+banner-heading: Events
+banner-text: Here you will find information on events and resources relating to CDC Open Technology. Periodically, we will host hackathons to find innovative solutions for public health issues using technology and data. We will also host webinars and other events to share information on CDC Open Technology and available resources. Please keep checking back to see upcoming events.
+banner-button-text:
+banner-button-link:
+banner-button-title:
+---
+
+<div class="events">
+  {% for section in site.data.events %}
+  <section class="opencdc-section event" id="{{ section.id }}">
+    <div class="section-header">
+      <h2><a href="{{ site.baseurl }}/events/{{section.slug}}">{{section.title}}</a></h2>
+    </div>
+    <div class="section-content">
+      <div class="section-side">
+        <h4>Event Type</h4>
+        <p>{{section.type}}</p>
+        <h4>When</h4>
+        <p>{{section.date}}</p>
+        <h4>Location</h4>
+        <p>{{section.location}}</p>
+        <a href="{{section.registration}}" class="register" target="_blank">Register</a>
+      </div>
+      <div class="section-main">
+        {% if section.image %}
+          <figure>
+            <img src="{{ site.baseurl }}/assets/img/{{ section.image }}" alt="{{section.title}}" class="section-image" />
+          </figure>
+        {% endif %}
+        <div class="description">
+          <p class="tagline">{{ section.description }}</p>
+          <a href="{{ site.baseurl }}/events/{{section.slug}}">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endfor %}    
+</div>

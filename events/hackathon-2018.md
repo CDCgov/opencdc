@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: event
 title: Events
-permalink: /events.html
+permalink: /events/hackathon-2018.html
 category: events
 banner-heading: Events
 banner-text: Here you will find information on events and resources relating to CDC Open Technology. Periodically, we will host hackathons to find innovative solutions for public health issues using technology and data. We will also host webinars and other events to share information on CDC Open Technology and available resources. Please keep checking back to see upcoming events.
@@ -9,9 +9,6 @@ banner-button-text:
 banner-button-link:
 banner-button-title:
 ---
-
-### Hackathons
-In order to facilitate the education and promotion of CDC Open Technology, we will regularly hold hackathons and encourage participation from the public.
 
 #### OpenCDC Hackathon: Oct. 3rd + 4th
 ![OpenCDC Hackathon October 3rd and 4th 2018][hackathon-banner]
@@ -26,13 +23,6 @@ To register, please complete the form at [https://go.usa.gov/xUfPG](https://go.u
  
 If you have questions or need more information, please contact the DHIS Accelerator Team at [xlr@cdc.gov](mailto:xlr@cdc.gov) or read the [CDC Connects article](http://intranet.cdc.gov/connects/2017/08/29/hackathon-aims-to-modernize-cdc-software/) about the team’s last hackathon held May 23–24, 2017.
 
-Download the [hackathon poster here](assets/pdf/2018-CDC-hackathon.pdf).
+Download the [hackathon poster here](/assets/pdf/2018-CDC-hackathon.pdf).
 
-### Webinars
-Interactive webinars are a great resource for sharing information and demonstrating CDC Open Technology. Please check back here to find more information on upcoming webinars.
-
-### Resources
-We have gathered resources such as tutorials, videos, and other information to help you interact with CDC Open Technology. Please browse through the resources below.
-
-
-[hackathon-banner]: assets/img/hackathon-banner.png "OpenCDC Hackathon October 3rd and 4th 2018"
+[hackathon-banner]: /assets/img/hackathon-banner.png "OpenCDC Hackathon October 3rd and 4th 2018"

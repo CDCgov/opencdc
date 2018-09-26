@@ -3,12 +3,11 @@ $code-border-color: #979797;
 section.project {
   .section-header {
     h2 {
-      color: #555;
+      color: #205493;
     }
     img.section-image {
-      position: relative;
-      top: 20px;
-      margin: 0 0 0 10px;
+      position: absolute;
+      margin: -30px 0 0 10px;
       height: 80px;
     }
     p {
@@ -22,9 +21,19 @@ section.project {
   }
 
   .repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+
     .repo {
-      padding: 0 0 10px 0;
-      border-bottom: 1px solid $code-border-color;
+      border: 1px solid #e6e6e6;
+      background-color: #f5f5f5;
+      margin: 20px 0;
+      padding: 20px;
+      flex: 1;
+      min-width: 48%;
+      max-width: 48%;
 
       a {
         color: #555;
@@ -33,6 +42,18 @@ section.project {
 
         &:hover {
           color: #777;
+        }
+      }
+
+      .docker-image {
+        img {
+          height: 25px;
+        }
+
+        &:hover {
+          img {
+            opacity: 0.8;
+          }
         }
       }
 
@@ -53,10 +74,23 @@ section.project {
         padding: 10px;
         display: inline-block;
         color: inherit;
+        font-size: 1rem;
+        margin: 0 0 10px 0;
       }
 
       p {
         color: #7E7E7E;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  section.project {
+    .repos {
+      .repo {
+        min-width: 100%;
+        max-width: 100%;
       }
     }
   }
