@@ -23,6 +23,6 @@ To register, please complete the form at [https://go.usa.gov/xUfPG](https://go.u
  
 If you have questions or need more information, please contact the DHIS Accelerator Team at [xlr@cdc.gov](mailto:xlr@cdc.gov) or read the [CDC Connects article](http://intranet.cdc.gov/connects/2017/08/29/hackathon-aims-to-modernize-cdc-software/) about the team’s last hackathon held May 23–24, 2017.
 
-Download the [hackathon poster here](/assets/pdf/2018-CDC-hackathon.pdf).
+Download the [hackathon poster here]({{ site.baseurl }}/assets/pdf/2018-CDC-hackathon.pdf).
 
-[hackathon-banner]: /assets/img/hackathon-banner.png "OpenCDC Hackathon October 3rd and 4th 2018"
+[hackathon-banner]: {{ site.baseurl }}/assets/img/hackathon-banner.png "OpenCDC Hackathon October 3rd and 4th 2018"
