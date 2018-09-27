@@ -25,13 +25,15 @@ banner-button-title:
   <div class="repos">
   {% for repo in section.repos %}
     <div class="repo">
+      {% if repo.docker %}
+        <a href="https://hub.docker.com/r/{{ repo.docker }}" target="_blank" class="pull-right docker-image">
+          <img src="{{ site.baseurl }}/assets/img/docker.svg" alt="Docker Image Available" />
+        </a>
+      {% endif %}
       <div class="title">
         <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank"><h3>{{ repo.title }}</h3></a>
       </div>
       <div class="resources">
-        {% if repo.docker %}
-          <a href="https://hub.docker.com/r/{{ repo.docker }}" target="_blank" class="pull-right"><img src="{{ site.baseurl }}/assets/img/docker.svg" alt="Docker Image Available" /></a>
-        {% endif %}
         <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank">https://github.com/CDCgov/{{ repo.url }}</a>
       </div>
       <p class="description">{{ repo.description }}</p>
