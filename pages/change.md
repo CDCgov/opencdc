@@ -23,3 +23,20 @@ All resources described here are available to the public by CDC public health pr
 1. Click "Create pull request."
 
 We'll confirm everything is accurate and once we confirm  your change, this site will update and make it available.
+
+#### Example change
+
+Each of the open technology items is described by its metadata, and this metadata is used to autogenerate the html necessary for the item to show up in this site so people can find and use it.
+
+For example, if you wanted to add a new data set called "My Sample Data Server", you would open the [_data/apis.yml](https://github.com/CDCgov/opencdc/blob/master/_data/apis.yml) file, and add four new new lines for your new metadata item. Make sure to set values for all elements.
+
+```yml
+- title: Data.CDC.gov
+  id: data-cdc-gov
+  url: https://data.cdc.gov
+  tagline: "Data.CDC.gov is a repository..."
+- title: My Sample Data Server
+  id: some-unique-id-wont-be-displayed
+  url: https://urlto.my.server.com
+  tagline: "This tagline shows as the description for my new data set and will help users understand my data, so they can better use it."
+```

@@ -14,6 +14,5 @@ category: search
   var searchData = {{ site.data.search | jsonify }};
 </script>
 
-
 <script src="{{ '/assets/js/lib/lunr.min.js' | prepend: site.baseurl  }}"></script>
 <script src="{{ '/assets/js/search.js' | prepend: site.baseurl  }}"></script>
