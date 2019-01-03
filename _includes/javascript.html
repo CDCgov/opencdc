@@ -27,68 +27,72 @@
   </ul>
 </nav>
 <div id="metrics">
-  <!-- Google DAP inclusion -->
-  <script id="_fed_an_ua_tag" src="https://www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=CDC"></script>
+<!-- Begin Google DAP inclusion -->
+<script id="_fed_an_ua_tag" src="https://www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=CDC"></script>
+<!-- End Google DAP inclusion -->
 
-  <!-- Begin SiteCatalyst code version: H.21. -->
-  <script src="https://www.cdc.gov/JScript/metrics/topic_levels.js"></script>
-  <script src="https://www.cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js"></script>
-	
+<!-- Begin Template Package Custom Interactions and Metrics Hierarchy/Levels Support -->
+<script src="https://www.cdc.gov/TemplatePackage/contrib/libs/cdc/metrics/rd_custom_interactions.js"></script>
+<script src="https://www.cdc.gov/TemplatePackage/contrib/libs/cdc/metrics/topic_levels.js"></script>
+<!-- End Template Package Custom Interactions and Metrics Hierarchy/Levels Support -->
+
+<!-- Adbobe Analytics code version: JS-2.0 -->
+<script src="https://www.cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js"></script>
+
 <script>
-s.channel="OCIO"; 
-siteCatalyst.setLevel1("OPEN"); 
+	if ('undefined' !== typeof enquire) {
+		enquire.register(CDC.Global.selectors.vp1, function() {
+			s.prop49 = 1;
+		});
+		enquire.register(CDC.Global.selectors.vp2, function() {
+			s.prop49 = 2;
+		});
+		enquire.register(CDC.Global.selectors.vp3, function() {
+			s.prop49 = 3;
+		});
+		enquire.register(CDC.Global.selectors.vp4, function() {
+			s.prop49 = 4;
+		});
+	}
+
+	s.pageName=document.title;
+	s.channel="OCIO";
+	siteCatalyst.setLevel1("OPEN");
+
+	s.prop2=window.location.href.toLowerCase();
+	s.prop26=document.title;
+	s.prop30=document.title;
+	s.prop31=window.location.href.toLowerCase();
+	s.prop46=window.location.href.toLowerCase();
+	s.server=window.location.hostname;
+
+	// Simplified URL
+	s.prop73 = window.location.href.split('?')[0].split('#')[0].toLowerCase();
+	s.eVar73 = window.location.href.split('?')[0].split('#')[0].toLowerCase();
+
+	// Update the level variables here.
+	updateVariables(s);
+
+	// Set the referrer value if passed on the querystring from a CDC page-level redirect.
+	if ('undefined' !== typeof CDC && 'undefined' !== typeof CDC.qs && CDC.qs['CDC_AA_refVal']) {
+		s.referrer = CDC.qs['CDC_AA_refVal'];
+	}
+
+	
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();
+if(s_code) {document.write(s_code);}
 </script>
-
-  <script>
-    var pageHref = window.location.href.toLowerCase(),
-            pageTitle = document.title,
-            hostName = window.location.hostname.toLowerCase(),
-            simpleUrl = pageHref.split('?')[0].split('#')[0];
-
-        // Metrics Carry Over (from TP3)
-        s.prop2 = pageHref;
-        s.prop26 = pageTitle;
-        s.prop30 = pageTitle;
-        s.prop31 = pageHref;
-        s.prop46 = pageHref;
-        s.server = hostName;
-        //Simplified URL
-        s.prop73 = simpleUrl;
-        s.eVar73 = simpleUrl;
-
-        // Update the level variables here.
-        updateVariables(s);
-
-		// Set the referrer value if passed on the querystring from a CDC page-level redirect.
-	    var qs = function (a) {
-	        if (a === '') {
-	            return;
-	        }
-	        var b = {};
-	        for (var i = 0; i < a.length; ++i) {
-	            var p = a[i].split('=');
-	            if (p.length !== 2 || p[0] == "") {
-	                continue;
-	            }
-	            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, ' '));
-	        }
-	        return b;
-	    }(window.location.search.substr(1).split('&'));
-
-		var refParam = qs['CDC_AA_refVal'];
-		if (refParam) {
-		  s.referrer = refParam;
-		}
-    </script>
-
-  <noscript>
-    <a href="https://cdc.112.2o7.net">
-      <img src="https://cdc.112.2o7.net/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" />
-    </a>
-  </noscript>
-  <!--/DO NOT REMOVE/-->
-  <!-- End SiteCatalyst code version: H.21. -->
+<script type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0) { document.write(unescape('%3C')+'\!-'+'-'); }
+</script>
+<noscript><a href="https://cdc.112.2o7.net"><img src="https://cdc.112.2o7.net/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- Begin Template Package DigitalGov Search Support -->
+<script type="text/javascript" src="/TemplatePackage/3.0/js/cdc/oadc/rd_search.js"></script>
+<!-- End Template Package DigitalGov Search Support -->
 </div>
+<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 <!-- Begin included content (from /TemplatePackage/4.0/includes/scripts.html) -->
 <!-- Application Requirements; Jquery, Bootstrap, AppJs  -->
 
