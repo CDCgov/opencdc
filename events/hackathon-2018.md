@@ -12,7 +12,9 @@ banner-button-title:
 
 ### OpenCDC Hackathon: Oct. 3rd + 4th
 
-![OpenCDC Hackathon October 3rd and 4th 2018][hackathon-banner]
+<figure>
+  <img src="{{ site.baseurl }}/assets/img/hackathon-banner.png" alt="OpenCDC Hackathon October 3rd and 4th 2018">
+</figure>
 
 Registration is now available for the OpenCDC Hackathon scheduled for October 3–4, 2018, and co-sponsored by the Office of the Chief Information Officer (OCIO) and the Division of Health Informatics and Surveillance (DHIS) in the Center for Surveillance, Epidemiology, and Laboratory Services (CSELS). Hosted by the Accelerator Team (XLR) in DHIS, the hackathon is open to all CDC employees, including FTEs, contractors, and fellows, interested in open source technologies, innovation, and collaboration at CDC.
 
@@ -25,8 +27,6 @@ To register, please complete the form at [https://go.usa.gov/xUfPG](https://go.u
 If you have questions or need more information, please contact the DHIS Accelerator Team at [xlr@cdc.gov](mailto:xlr@cdc.gov) or read the [CDC Connects article](http://intranet.cdc.gov/connects/2017/08/29/hackathon-aims-to-modernize-cdc-software/) about the team’s last hackathon held May 23–24, 2017.
 
 Download the [hackathon poster here]({{ site.baseurl }}/assets/pdf/2018-CDC-hackathon.pdf).
-
-[hackathon-banner]: {{ site.baseurl }}/assets/img/hackathon-banner.png "OpenCDC Hackathon October 3rd and 4th 2018"
 
 #### Agenda
 
