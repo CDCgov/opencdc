@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
   #content {
     padding-bottom: 20px;
   }
@@ -42,8 +42,19 @@
   section.project .repos .repo .license {
     text-align: left;
   }
-  .opencdc-search [type=search], .opencdc-search .opencdc-search-input {
-    width: 160px;
+  .opencdc-search {
+    margin-bottom: 50px;
+
+    [role=search] {
+      [type=search], 
+      .opencdc-search-input {
+        width: 55%;
+      }
+
+      button {
+        width: 35%;
+      }
+    }
   }
   .opencdc-grid .opencdc-whole-row {
     max-width: 100%;
@@ -72,7 +83,11 @@
     padding: 1rem 2rem;
 
     .intro  {
-      h1 {
+      a img {
+        height: 80%;
+        margin: 0.5rem auto;
+      }
+      .text {
         display: none;
       }
     }
