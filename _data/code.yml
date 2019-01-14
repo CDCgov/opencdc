@@ -134,7 +134,7 @@
       license: Apache License 2.0
     - title: SDP-CBR
       url: SDP-CBR
-      description: Repository for the development of the initial SDP vocabulary service.
+      description: Repository for the development of the initial SDP Content-based Routing Service.
       tags:
         - surveillance
         - java
