@@ -18,7 +18,7 @@
     - xml
 - title: WONDER
   id: wonder
-  url: htps://wonder.cdc.gov/ controller/datarequest/[database ID]
+  url: https://wonder.cdc.gov/controller/datarequest/[database ID]
   tagline: Access data in the WONDER online databases immediately with automated data queries in XML format over HTTP, for use in your own web pages or widgets.
   docs: https://wonder.cdc.gov/wonder/help/WONDER-API.html
   arch: REST
