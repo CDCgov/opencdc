@@ -134,8 +134,21 @@
       license: Apache License 2.0
     - title: SDP-CBR
       url: SDP-CBR
-      description: Repository for the development of the initial SDP vocabulary service.
+      description: Repository for the development of the initial SDP Content-based Routing Service.
       tags:
         - surveillance
         - java
+      license: Apache License 2.0
+- title: Epi Info™ 
+  id: EpiInfo
+  tagline: Epi Info™ Open Source Projects
+  repos:
+    - title: Epi Info™ Web Survey
+      url: https://github.com/Epi-Info/Epi-Info-Web-Survey
+      description: Repository for the development of Epi Info™ Web Survey.
+      tags:
+        - Epi Info
+        - .net MVC
+        - Survey
+        
       license: Apache License 2.0
