@@ -141,14 +141,15 @@
       license: Apache License 2.0
 - title: Epi Info™ 
   id: EpiInfo
+  image: Epi_Info.png
   tagline: Epi Info™ Open Source Projects
   repos:
     - title: Epi Info™ Web Survey
       url: https://github.com/Epi-Info/Epi-Info-Web-Survey
       description: Repository for the development of Epi Info™ Web Survey.
       tags:
-        - Epi Info
-        - .net MVC
+        - EpiInfo
+        - dotnet
         - Survey
         
       license: Apache License 2.0
