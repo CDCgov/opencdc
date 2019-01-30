@@ -153,3 +153,12 @@
         - Survey
         
       license: Apache License 2.0
+    - title: Epi Info™ Cloud Data Capture
+      url: https://github.com/Epi-Info/Epi-Info-Cloud-Data-Capture
+      description: Repository for the development of Epi Info™ Cloud Data Capture.
+      tags:
+        - EpiInfo
+        - dotnet
+        - surveillance
+        
+      license: Apache License 2.0
