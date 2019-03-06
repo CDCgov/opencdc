@@ -162,3 +162,15 @@
         - surveillance
         
       license: Apache License 2.0
+
+
+- title: Quantum Computing
+  id: QC
+  tagline: Quantum Computing Open Source Projects
+  repos:
+    - title: Quantum Computing
+      url: https://github.com/CDCgov/QuantumComputing
+      description: CDC Research and Development of Quantum Computing.
+      tags:
+        - quantum
+      license: Apache License 2.0
