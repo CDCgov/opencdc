@@ -41,3 +41,20 @@
   arch: REST
   formats:
     - json
+- title: API Guidance
+  id: sdp-api-guidance
+  tagline: CDC's Surveillance Data Platform program offers guidance on several aspects of RESTful API design and implementation.
+  docs: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/478969857/REST+API+Guidance+-+Version+1.1
+  arch: REST
+  links:
+    - description: RESTful API Design Guidance
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/478969857/REST+API+Guidance+-+Version+1.1
+    - description: Example RESTful API
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/387710977/RESTful+API+Example+SDP-V
+    - description: API Implementation Considerations
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/485425156/API+Implementation+Considerations
+    - description: Using OAuth to Secure CDC APIs
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/410189825/Using+OAuth+to+Secure+CDC+APIs
+  formats:
+    - json
+    - xml
