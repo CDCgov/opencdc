@@ -21,14 +21,26 @@ banner-button-title:
     <p class="tagline">{{ section.tagline }}</p>
     <table class="opencdc-table-borderless">
       <tbody>
+        {% if section.url %}
         <tr>
           <td width="20%"><strong>Endpoint:</strong></td>
           <td><a href="{{ section.url }}" target="_blank">{{ section.url }}</a></td>
         </tr>
+        {% endif %}
         <tr>
           <td width="20%"><strong>Documentation:</strong></td>
           <td><a href="{{ section.docs }}" target="_blank">{{ section.docs }}</a></td>
         </tr>
+        {% if section.links %}
+        <tr>
+          <td width="20%"><strong>Additional Links:</strong></td>
+          <td>
+          {% for link in section.links %}
+          <a href="{{ link.url }}" target="_blank">{{ link.description }}</a><br/>
+          {% endfor %}
+          </td>
+        </tr>
+        {% endif %}
         <tr>
           <td width="20%"><strong>Architecture:</strong></td>
           <td>{{ section.arch }}</td>
@@ -46,5 +58,3 @@ banner-button-title:
   </div>
 </section>
 {% endfor %}
-
-{% include api_guidance.html %}
