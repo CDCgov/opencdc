@@ -15,6 +15,24 @@ pages:
     paths:
       - public
   only:
+    refs:
     - master
+    variables:
+    - $pages_runner == "pages"
   tags:
     - pages
+
+docker:
+  stage: deploy
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  only:
+    refs:
+    - master
+    variables:
+    - $pages_runner == "docker"
+  tags:
+    - docker
