@@ -4,7 +4,7 @@
   tagline: Open Data is a repository of all available data sets with a Socrata Open Data API.
   docs: https://dev.socrata.com/docs/endpoints.html
   arch: REST
-  formats: 
+  formats:
     - json
     - xml
     - csv
@@ -16,6 +16,17 @@
   arch: REST
   formats:
     - xml
+- title: Surveillance Data Platform (SDP) Vocabulary Service
+  id: sdp-v
+  url: https://sdp-v.services.cdc.gov/api/
+  tagline: The SDP Vocabulary Service is a web-based repository of Response Sets, Questions, Sections, and SDP-V Surveys that allow public health professionals to more rapidly discover, reuse or create, and deploy data collection instruments. The SDP Vocabulary Service also provides transparency across published content from multiple programs and enables use of harmonized questions and response sets.
+  docs: https://www.cdc.gov/sdp/SDPForDevelopers.html
+  arch: REST
+  links:
+  - description: FHIR API Documentation
+    url: https://sdp-v.services.cdc.gov/#/fhirDoc
+  formats:
+        - json
 - title: WONDER
   id: wonder
   url: https://wonder.cdc.gov/controller/datarequest/[database ID]
