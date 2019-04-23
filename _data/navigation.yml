@@ -44,6 +44,8 @@ footer:
         id: open-data
       - label: PHIN VADS
         id: phin-vads
+      - label: Surveillance Data Platform (Vocabulary)
+        id: sdp-v
       - label: WONDER
         id: wonder
       - label: Content Syndication
