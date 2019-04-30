@@ -1,7 +1,9 @@
 - title: Surveda 
-id: Surveda 
-url: https://github.com/instedd/surveda
-tagline: "Surveda is an open-source, multi-modal phone survey web application designed to quickly and efficiently deploy mobile phone surveys at a national scale."
+  id: surveda
+  repos:
+    - title: Surveda
+      url: https://github.com/instedd/surveda
+      description: Surveda is an open-source, multi-modal phone survey web application designed to quickly and efficiently deploy mobile phone surveys at a national scale.
 - title: Blockchain
   id: blockchain
   tagline: Blockchain Open Source Projects
@@ -24,7 +26,7 @@ tagline: "Surveda is an open-source, multi-modal phone survey web application de
         - microservice
       license: Apache License 2.0
     - title: FDNS-UI-React
-      url: fdns-ui-react
+      url: https://github.com/CDCgov/fdns-ui-react
       description: This is the repository with the a front-end library built in React, will also need to publish to NPM.
       tags:
         - microservice
