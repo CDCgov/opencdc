@@ -4,6 +4,7 @@
     - title: Surveda
       url: https://github.com/instedd/surveda
       description: Surveda is an open-source, multi-modal phone survey web application designed to quickly and efficiently deploy mobile phone surveys at a national scale.
+      license: GNU General Public License 3
 - title: Blockchain
   id: blockchain
   tagline: Blockchain Open Source Projects
