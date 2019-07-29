@@ -103,7 +103,7 @@
       license: Apache License 2.0
     - title: FDNS-MS-CDA-Utils
       docker: https://hub.docker.com/r/cdcgov/fdns-ms-cda-utils
-      url: fdns-ms-cda-utils
+      url: https://github.com/CDCgov/fdns-ms-cda-utils
       description: This is the repository with the CDA utilities service to parse, validate and generate sample CDA data.
       tags:
         - microservice
