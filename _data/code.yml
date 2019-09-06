@@ -1,10 +1,3 @@
-- title: Surveda 
-  id: surveda
-  repos:
-    - title: Surveda
-      url: https://github.com/instedd/surveda
-      description: Surveda is an open-source, multi-modal phone survey web application designed to quickly and efficiently deploy mobile phone surveys at a national scale.
-      license: GNU General Public License 3
 - title: Blockchain
   id: blockchain
   tagline: Blockchain Open Source Projects
@@ -14,6 +7,29 @@
       description: Proof of project for CDC's research and development (R&D) with using blockchain to support TB.
       tags:
         - blockchain
+      license: Apache License 2.0
+- title: Epi Info™ 
+  id: EpiInfo
+  image: Epi_Info.png
+  tagline: Epi Info™ Open Source Projects
+  repos:
+    - title: Epi Info™ Web Survey
+      url: https://github.com/Epi-Info/Epi-Info-Web-Survey
+      description: Repository for the development of Epi Info™ Web Survey.
+      tags:
+        - EpiInfo
+        - dotnet
+        - Survey
+        
+      license: Apache License 2.0
+    - title: Epi Info™ Cloud Data Capture
+      url: https://github.com/Epi-Info/Epi-Info-Cloud-Data-Capture
+      description: Repository for the development of Epi Info™ Cloud Data Capture.
+      tags:
+        - EpiInfo
+        - dotnet
+        - surveillance
+        
       license: Apache License 2.0
 - title: Foundation Services
   id: foundation-services
@@ -128,6 +144,13 @@
         - java
         - springboot
       license: Apache License 2.0
+- title: Surveda 
+  id: surveda
+  repos:
+    - title: Surveda
+      url: https://github.com/instedd/surveda
+      description: Surveda is an open-source, multi-modal phone survey web application designed to quickly and efficiently deploy mobile phone surveys at a national scale.
+      license: GNU General Public License 3
 - title: Surveillance Strategy
   id: surveillance-strategy
   tagline: Surveillance Strategy Open Source Projects
@@ -145,27 +168,4 @@
       tags:
         - surveillance
         - java
-      license: Apache License 2.0
-- title: Epi Info™ 
-  id: EpiInfo
-  image: Epi_Info.png
-  tagline: Epi Info™ Open Source Projects
-  repos:
-    - title: Epi Info™ Web Survey
-      url: https://github.com/Epi-Info/Epi-Info-Web-Survey
-      description: Repository for the development of Epi Info™ Web Survey.
-      tags:
-        - EpiInfo
-        - dotnet
-        - Survey
-        
-      license: Apache License 2.0
-    - title: Epi Info™ Cloud Data Capture
-      url: https://github.com/Epi-Info/Epi-Info-Cloud-Data-Capture
-      description: Repository for the development of Epi Info™ Cloud Data Capture.
-      tags:
-        - EpiInfo
-        - dotnet
-        - surveillance
-        
       license: Apache License 2.0

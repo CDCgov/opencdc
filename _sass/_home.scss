@@ -160,15 +160,15 @@
 			}
 
 			.flag:after {
-			        content: "";
-			        position: absolute;
-			        left: 0;
-			        bottom: 0;
-			        width: 0;
-			        height: 0;
-			        border-bottom: 13px solid #fff;
-			        border-left: 83px solid transparent;
-			        border-right: 83px solid transparent;
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 13px solid #fff;
+        border-left: 83px solid transparent;
+        border-right: 83px solid transparent;
 			}
 
 			.flag.alt {
