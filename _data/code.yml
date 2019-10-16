@@ -1,3 +1,20 @@
+- title: GitHub
+  id: github
+  tagline: CDC Open Source Projects Hosted on GitHub
+  repos:
+    - title: CDCgov
+      url: https://github.com/CDCgov
+      description: Main organization for CDC programs to collaborate with communities on a diverse mix of projects focused on various public health topics.
+      tags:
+        - publichealth
+      license: Various Open Source
+    - title: CDC Public Health Informatics Lab
+      url: https://github.com/informaticslab
+      description: Research and development focused projects where the CDC Public Health Informatics Lab collaborates with specific public health programs on research topics.
+      tags:
+        - innovation
+        - r&d
+      license: Various Open Source
 - title: Blockchain
   id: blockchain
   tagline: Blockchain Open Source Projects
