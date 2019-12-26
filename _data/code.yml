@@ -127,14 +127,14 @@
   repos:
     - title: SDP-Vocabulary-Service
       url: SDP-Vocabulary-Service
-      description: Repository for the development of the initial SDP vocabulary service.
+      description: Repository for the development of the SDP Vocabulary Service.
       tags:
         - surveillance
         - javascript
       license: Apache License 2.0
     - title: SDP-CBR
       url: SDP-CBR
-      description: Repository for the development of the initial SDP vocabulary service.
+      description: Repository for the development of the retired SDP Content-Based Routing Service.
       tags:
         - surveillance
         - java
