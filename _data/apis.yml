@@ -4,7 +4,7 @@
   tagline: Open Data is a repository of all available data sets with a Socrata Open Data API.
   docs: https://dev.socrata.com/docs/endpoints.html
   arch: REST
-  formats: 
+  formats:
     - json
     - xml
     - csv
@@ -16,9 +16,20 @@
   arch: REST
   formats:
     - xml
+- title: Surveillance Data Platform (SDP) Vocabulary Service
+  id: sdp-v
+  url: https://sdp-v.services.cdc.gov/api/
+  tagline: The SDP Vocabulary Service is a web-based repository of Response Sets, Questions, Sections, and SDP-V Surveys that allow public health professionals to more rapidly discover, reuse or create, and deploy data collection instruments. The SDP Vocabulary Service also provides transparency across published content from multiple programs and enables use of harmonized questions and response sets.
+  docs: https://www.cdc.gov/sdp/SDPForDevelopers.html
+  arch: REST
+  links:
+  - description: FHIR API Documentation
+    url: https://sdp-v.services.cdc.gov/#/fhirDoc
+  formats:
+        - json
 - title: WONDER
   id: wonder
-  url: http://wonder.cdc.gov?request_xml=
+  url: https://wonder.cdc.gov/controller/datarequest/[database ID]
   tagline: Access data in the WONDER online databases immediately with automated data queries in XML format over HTTP, for use in your own web pages or widgets.
   docs: https://wonder.cdc.gov/wonder/help/WONDER-API.html
   arch: REST
@@ -41,3 +52,20 @@
   arch: REST
   formats:
     - json
+- title: API Guidance
+  id: sdp-api-guidance
+  tagline: CDC's Surveillance Data Platform program offers guidance on several aspects of RESTful API design and implementation.
+  docs: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/478969857/REST+API+Guidance+-+Version+1.1
+  arch: REST
+  links:
+    - description: RESTful API Design Guidance
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/478969857/REST+API+Guidance+-+Version+1.1
+    - description: Example RESTful API
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/387710977/RESTful+API+Example+SDP-V
+    - description: API Implementation Considerations
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/485425156/API+Implementation+Considerations
+    - description: Using OAuth to Secure CDC APIs
+      url: https://publichealthsurveillance.atlassian.net/wiki/spaces/STA/pages/410189825/Using+OAuth+to+Secure+CDC+APIs
+  formats:
+    - json
+    - xml

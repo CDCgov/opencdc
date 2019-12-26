@@ -26,21 +26,21 @@ banner-button-title:
   {% for repo in section.repos %}
     <div class="repo">
       {% if repo.docker %}
-        <a href="https://hub.docker.com/r/{{ repo.docker }}" target="_blank" class="pull-right docker-image">
+        <a href="{{ repo.docker }}" target="_blank" class="pull-right docker-image">
           <img src="{{ site.baseurl }}/assets/img/docker.svg" alt="Docker Image Available" />
         </a>
       {% endif %}
       <div class="title">
-        <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank"><h3>{{ repo.title }}</h3></a>
+        <a href="{{ repo.url }}" target="_blank"><h3>{{ repo.title }}</h3></a>
       </div>
       <div class="resources">
-        <a href="https://github.com/CDCgov/{{ repo.url }}" target="_blank">https://github.com/CDCgov/{{ repo.url }}</a>
+        <a href="{{ repo.url }}" target="_blank">{{ repo.url }}</a>
       </div>
       <p class="description">{{ repo.description }}</p>
       <div class="opencdc-grid-full">
         <div class="opencdc-width-one-half tags">
           {% for tag in repo.tags %}
-            <a href="{{ 'https://github.com/search?q=org%3ACDCgov+topic%3A' | append: tag }}" target="_blank">#{{ tag }}</a>
+            <a href="{{ 'https://github.com/search?q=topic%3A' | append: tag }}" target="_blank">#{{ tag }}</a>
           {% endfor %}
         </div>
         <div class="opencdc-width-one-half license">

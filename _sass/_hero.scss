@@ -63,29 +63,41 @@
   padding: 3rem;
 
   .intro {
-    h1,h2 {
-      display: block;
-      color: #fff;
-      padding-top: 0.25em;
-    }
-    h1 {
-      font-size: 28px;
-    }
-    a {
+    .graphic {
       text-decoration: none;
-      text-align: center;
-      img {
+      a {
+        text-decoration: none;
+        img {
+          display: block;
+          margin: 10px auto;
+        }
+      }
+    }
+    .text {
+      text-decoration: none;
+      h1,h2 {
         display: block;
-        margin: 10px auto;
-      }
-      h1,h2,h3,h4,h5 {
         color: #fff;
-        margin: 0;
+        padding-top: 0.25em;
       }
-
-      &:hover {
+      h1 {
+        font-size: 28px;
+      }
+      a {
+        text-decoration: none;
+        text-align: center;
+        img {
+          display: block;
+        }
         h1,h2,h3,h4,h5 {
-          color: #ddd;
+          color: #fff;
+          margin: 0;
+        }
+
+        &:hover {
+          h1,h2,h3,h4,h5 {
+            color: #ddd;
+          }
         }
       }
     }
