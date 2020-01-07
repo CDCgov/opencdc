@@ -181,7 +181,7 @@
       license: Apache License 2.0
     - title: SDP-CBR
       url: https://github.com/CDCgov/SDP-CBR
-      description: Repository for the development of the SDP Content-Based Routing Service.
+      description: Repository for the development of the retired SDP Content-Based Routing Service.
       tags:
         - surveillance
         - java
