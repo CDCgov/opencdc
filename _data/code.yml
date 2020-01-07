@@ -25,7 +25,7 @@
       tags:
         - blockchain
       license: Apache License 2.0
-- title: Epi Info™ 
+- title: Epi Info™
   id: EpiInfo
   image: Epi_Info.png
   tagline: Epi Info™ Open Source Projects
@@ -37,7 +37,7 @@
         - EpiInfo
         - dotnet
         - Survey
-        
+
       license: Apache License 2.0
     - title: Epi Info™ Cloud Data Capture
       url: https://github.com/Epi-Info/Epi-Info-Cloud-Data-Capture
@@ -46,7 +46,7 @@
         - EpiInfo
         - dotnet
         - surveillance
-        
+
       license: Apache License 2.0
 - title: Foundation Services
   id: foundation-services
@@ -161,7 +161,7 @@
         - java
         - springboot
       license: Apache License 2.0
-- title: Surveda 
+- title: Surveda
   id: surveda
   repos:
     - title: Surveda
@@ -174,14 +174,14 @@
   repos:
     - title: SDP-Vocabulary-Service
       url: https://github.com/CDCgov/SDP-Vocabulary-Service
-      description: Repository for the development of the initial SDP vocabulary service.
+      description: Repository for the development of the SDP Vocabulary Service.
       tags:
         - surveillance
         - javascript
       license: Apache License 2.0
     - title: SDP-CBR
       url: https://github.com/CDCgov/SDP-CBR
-      description: Repository for the development of the initial SDP Content-based Routing Service.
+      description: Repository for the development of the retired SDP Content-Based Routing Service.
       tags:
         - surveillance
         - java
