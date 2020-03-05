@@ -89,7 +89,6 @@
         - java
       license: Apache License 2.0
     - title: FDNS-MS-Gateway
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-gateway
       url: https://github.com/CDCgov/fdns-ms-gateway
       description: This is the repository with the API gateway to connect other microservices together.
       tags:
@@ -98,7 +97,6 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Storage
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-storage
       url: https://github.com/CDCgov/fdns-ms-storage
       description: This is the repository with the Storage layer for the Data Lake. This is the immutable layer.
       tags:
@@ -107,7 +105,6 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Object
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-object
       url: https://github.com/CDCgov/fdns-ms-object
       description: This is the repository with the Object layer for the Data Lake. This is the mutable layer.
       tags:
@@ -117,7 +114,6 @@
         - mongodb
       license: Apache License 2.0
     - title: FDNS-MS-Indexing
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-indexing
       url: https://github.com/CDCgov/fdns-ms-indexing
       description: This is the repository with the Indexing layer for the Data Lake. This is the navigation layer.
       tags:
@@ -126,7 +122,6 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-HL7-Utils
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-hl7-utils
       url: https://github.com/CDCgov/fdns-ms-hl7-utils
       description: This is the repository with the HL7 utilities service to parse, validate and generate sample HL7 data.
       tags:
@@ -135,7 +130,6 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-CDA-Utils
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-cda-utils
       url: https://github.com/CDCgov/fdns-ms-cda-utils
       description: This is the repository with the CDA utilities service to parse, validate and generate sample CDA data.
       tags:
@@ -144,7 +138,6 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Combiner
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-combiner
       url: https://github.com/CDCgov/fdns-ms-combiner
       description: This is the repository with the Combiner service to combine JSON files into a single CSV or XLSX file.
       tags:
@@ -153,7 +146,6 @@
         - springboot
       license: Apache License 2.0
     - title: FDNS-MS-Rules
-      docker: https://hub.docker.com/r/cdcgov/fdns-ms-rules
       url: https://github.com/CDCgov/fdns-ms-rules
       description: This is the repository with the Business Rules Engine for ingesting and validating JSON files.
       tags:
