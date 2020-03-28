@@ -20,7 +20,6 @@
       description: The purpose of the Coronavirus Self-Checker is to help you make decisions about seeking appropriate medical care. This system is not intended for the diagnosis or treatment of disease or other conditions, including COVID-19. This system is intended only for people who are currently located in the United States.
       tags:
         - COVID-19
-        - COVID-19-US
       license: Apache Software License V2
 - title: Blockchain
   id: blockchain
