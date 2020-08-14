@@ -31,6 +31,18 @@
       tags:
         - blockchain
       license: Apache License 2.0
+- title: Data Visualization
+  id: dataviz
+  tagline: Blockchain Open Source Projects
+  repos:
+    - title: CDC Maps
+      url: https://github.com/CDCgov/CDC-Maps
+      description: React component for visualizing your data on a map of the United States based off work done for the CDC
+      tags:
+        - visualization
+        - javascript
+        - react
+      license: Apache License 2.0
 - title: Epi Info™
   id: EpiInfo
   image: Epi_Info.png
