@@ -33,7 +33,7 @@
       license: Apache License 2.0
 - title: Data Visualization
   id: dataviz
-  tagline: Blockchain Open Source Projects
+  tagline: Data Visualization Open Source Projects
   repos:
     - title: CDC Maps
       url: https://github.com/CDCgov/CDC-Maps
