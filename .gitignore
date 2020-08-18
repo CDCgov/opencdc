@@ -7,3 +7,5 @@ npm-debug.log
 node_modules
 .ruby-version
 .vscode/settings.json
+Gemfile.lock
+
