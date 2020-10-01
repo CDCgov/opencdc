@@ -111,3 +111,18 @@
         - surveillance
         - java
       license: Apache License 2.0
+      
+- title: Crowdsourcing Machine Learning Programmers
+  id: Crowdsourcing Machine Learning Programmers
+  tagline: Crowdsourcing Machine Learning Programmers
+  repos:
+    - title: Crowdsourcing-NLP
+      url: https://github.com/NASA-Tournament-Lab/CDC-NLP-Occ-Injury-Coding
+      description: International crowdsourcing competition to develop natural language processing machine learning algorithms.
+      tags:
+        - Surveillance
+        - Python
+        - Artificial Intelligence
+        - work injury
+      license: Apache License 2.0
+      
