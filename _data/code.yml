@@ -21,6 +21,14 @@
       tags:
         - COVID-19
       license: Apache Software License V2
+    - title: NIOSHmining
+      url: https://github.com/niosh-mining
+      description: NIOSH open source projects for mine health/safety applications.
+      tags:
+        - mining
+        - geology
+        - health&safety
+      license: Various Open Source
 - title: Blockchain
   id: blockchain
   tagline: Blockchain Open Source Projects
