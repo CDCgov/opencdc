@@ -94,6 +94,18 @@
         - java
         - springboot
       license: Apache License 2.0
+- title: R Packages
+  id: rpkgs
+  repos:
+    - title: nncc
+      url: https://cran.r-project.org/package=nncc
+      description: Provides nearest-neighbors matching and analysis of case-control data. Cui, Z., Marder, E. P., Click, E. S., Hoekstra, R. M., & Bruce, B. B. (2022) <doi:10.1097/EDE.0000000000001504>.
+      license: GNU General Public License 3
+      tags:
+        - epidemiology
+        - R
+        - casecontrol
+        - nearestneighbors
 - title: Surveda
   id: surveda
   repos:
