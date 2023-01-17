@@ -26,81 +26,18 @@
     </li>
   </ul>
 </nav>
+
 <div id="metrics">
-<script src="https://www.cdc.gov/TemplatePackage/4.0/assets/vendor/js/jquery.min.js?2018-08-17T00:15:03Z"></script>
-<script src="https://www.cdc.gov/TemplatePackage/4.0/assets/vendor/js/bootstrap.bundle.js?2018-08-17T00:15:03Z"></script>
-<script src="https://www.cdc.gov/TemplatePackage/4.0/assets/js/app.bundle.min.js?2018-08-17T00:15:03Z"></script>
-
-<!-- Begin Google DAP inclusion -->
-<script id="_fed_an_ua_tag" src="https://www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=CDC"></script>
-<!-- End Google DAP inclusion -->
-
-<!-- Begin Template Package Custom Interactions and Metrics Hierarchy/Levels Support -->
-<script src="https://www.cdc.gov/TemplatePackage/contrib/libs/cdc/metrics/rd_custom_interactions.js"></script>
-<script src="https://www.cdc.gov/TemplatePackage/contrib/libs/cdc/metrics/topic_levels.js"></script>
-<!-- End Template Package Custom Interactions and Metrics Hierarchy/Levels Support -->
-
-<!-- Adbobe Analytics code version: JS-2.0 -->
-<script src="https://www.cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js"></script>
-
-<!-- Foresee Survey Inclusion -->
-<script src="https://www.cdc.gov/JScript/foresee/foresee-trigger.js?2018-08-17T00:15:03Z"></script>
-<script src="https://www.cdc.gov/JScript/foresee-variables.js?2018-08-17T00:15:03Z"></script>
-
-<script>
-	if ('undefined' !== typeof enquire) {
-		enquire.register(CDC.Global.selectors.vp1, function() {
-			s.prop49 = 1;
-		});
-		enquire.register(CDC.Global.selectors.vp2, function() {
-			s.prop49 = 2;
-		});
-		enquire.register(CDC.Global.selectors.vp3, function() {
-			s.prop49 = 3;
-		});
-		enquire.register(CDC.Global.selectors.vp4, function() {
-			s.prop49 = 4;
-		});
-	}
-
-	s.pageName=document.title;
-	s.channel="OCIO";
-	siteCatalyst.setLevel1("OPEN");
-
-	s.prop2=window.location.href.toLowerCase();
-	s.prop26=document.title;
-	s.prop30=document.title;
-	s.prop31=window.location.href.toLowerCase();
-	s.prop46=window.location.href.toLowerCase();
-	s.server=window.location.hostname;
-
-	// Simplified URL
-	s.prop73 = window.location.href.split('?')[0].split('#')[0].toLowerCase();
-	s.eVar73 = window.location.href.split('?')[0].split('#')[0].toLowerCase();
-
-	// Update the level variables here.
-	updateVariables(s);
-
-	// Set the referrer value if passed on the querystring from a CDC page-level redirect.
-	if ('undefined' !== typeof CDC && 'undefined' !== typeof CDC.qs && CDC.qs['CDC_AA_refVal']) {
-		s.referrer = CDC.qs['CDC_AA_refVal'];
-	}
-
-	
-/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
-var s_code=s.t();
-if(s_code) {document.write(s_code);}
-</script>
-<script type="text/javascript">
-if(navigator.appVersion.indexOf('MSIE')>=0) { document.write(unescape('%3C')+'\!-'+'-'); }
-</script>
-<noscript><a href="https://cdc.112.2o7.net"><img src="https://cdc.112.2o7.net/b/ss/cdcgov/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" /></a></noscript><!--/DO NOT REMOVE/-->
-<!-- End SiteCatalyst code version: H.21. -->
-<!-- Begin Template Package DigitalGov Search Support -->
-<script type="text/javascript" src="https://www.cdc.gov/TemplatePackage/3.0/js/cdc/oadc/rd_search.js"></script>
-<!-- End Template Package DigitalGov Search Support -->
+       <script src=https://www.cdc.gov/TemplatePackage/4.0/assets/vendor/js/jquery.min.js?2018-08-17T00:15:03Z></script>
+       <script src=https://www.cdc.gov/TemplatePackage/4.0/assets/vendor/js/bootstrap.bundle.js?2018-08-17T00:15:03Z></script>
+       <script src=https://www.cdc.gov/TemplatePackage/4.0/assets/js/app.bundle.min.js?2018-08-17T00:15:03Z></script>
+       <script>
+              siteCatalyst.setChannel("OCIO");
+              siteCatalyst.setLevel1("OPEN");
+              updateVariables();
+       </script>
 </div>
-<!-- xxxxxxxxxxxxxxxxxx METRICS code ends here xxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
 <!-- Begin included content (from /TemplatePackage/4.0/includes/scripts.html) -->
 <!-- Application Requirements; Jquery, Bootstrap, AppJs  -->
 
