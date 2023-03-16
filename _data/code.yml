@@ -15,9 +15,9 @@
         - innovation
         - r&d
       license: Various Open Source
-    - title: CDC COVID-19 Screeners
+    - title: CDC COVID-19 Screeners (Archived)
       url: https://github.com/CDCgov/covid19healthbot
-      description: The purpose of the Coronavirus Self-Checker is to help you make decisions about seeking appropriate medical care. This system is not intended for the diagnosis or treatment of disease or other conditions, including COVID-19. This system is intended only for people who are currently located in the United States. This project has been made possible through a partnership with multiple organizations. CDC's collaboration with a non-federal organization does not imply an endorsement of any one particular service, product, or enterprise.
+      description: (Archived Oct 7th, 2022) The purpose of the Coronavirus Self-Checker is to help you make decisions about seeking appropriate medical care. This system is not intended for the diagnosis or treatment of disease or other conditions, including COVID-19. This system is intended only for people who are currently located in the United States. This project has been made possible through a partnership with multiple organizations. CDC's collaboration with a non-federal organization does not imply an endorsement of any one particular service, product, or enterprise.
       tags:
         - COVID-19
       license: Apache Software License V2
