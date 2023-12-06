@@ -13,7 +13,7 @@
 - title: National Center for Health Statistics
   id: nchs
   url: https://www.cdc.gov/nchs/data_access/ftp_data.htm
-  tagline: The National Center for Health Statistics (NCHS) offers downloadable public-use data files through CDC's FTP file server. Users of this service have access to data sets, documentation and questionnaires from NCHS surveys and data collection systems. Downloading instructions are available in “readme” files.
+  tagline: The National Center for Health Statistics (NCHS) offers downloadable public-use data files through CDC's FTP file server. Users of this service have access to data sets, documentation and questionnaires from NCHS surveys and data collection systems. Downloading instructions are available in “readme” files. Selected data systems are available in R format here: https://cdcgov.github.io/nchsdata/
 - title: Injury & Violence
   id: injury-violence
   url: https://www.cdc.gov/injury/wisqars/index.html
