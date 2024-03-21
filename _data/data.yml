@@ -6,10 +6,6 @@
   id: chronicdata-cdc-gov
   url: https://chronicdata.cdc.gov
   tagline: "Chronic Disease and Health Promotion Data & Indicators"
-- title: www.CDC.gov/data
-  id: cdc-gov-data-tools
-  url: https://www.cdc.gov/data
-  tagline: "Data, Statistics, and Tools by CDC Topic Area"
 - title: National Center for Health Statistics
   id: nchs
   url: https://www.cdc.gov/nchs/data_access/ftp_data.htm
